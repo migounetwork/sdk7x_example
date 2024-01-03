@@ -1,0 +1,10 @@
+//
+//  rnn-config.xcconfig
+//  rnnexample
+//
+//  Created by Brian Luan on 2021/10/7.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"
