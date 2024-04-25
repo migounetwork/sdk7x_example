@@ -17,6 +17,7 @@
 		D36BE05F2B4593D100DCA3FA /* rnn-config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D36BE05E2B4593D100DCA3FA /* rnn-config.xcconfig */; };
 		D36BE0662B45949900DCA3FA /* RNNNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36BE0642B45949900DCA3FA /* RNNNativeViewController.m */; };
 		D36BE0672B45949900DCA3FA /* RNNCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36BE0652B45949900DCA3FA /* RNNCustomViewController.m */; };
+		D37A68FE2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D37A68FD2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D36BE0632B45949900DCA3FA /* RNNNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNNativeViewController.h; sourceTree = "<group>"; };
 		D36BE0642B45949900DCA3FA /* RNNNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNNativeViewController.m; sourceTree = "<group>"; };
 		D36BE0652B45949900DCA3FA /* RNNCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNCustomViewController.m; sourceTree = "<group>"; };
+		D37A68FD2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D37A68FD2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy */,
 				D36BE0612B45945500DCA3FA /* RNNCustom */,
 				D36BE05E2B4593D100DCA3FA /* rnn-config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* sdk7x_example */,
@@ -265,6 +268,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D37A68FE2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy in Resources */,
 				D36BE05F2B4593D100DCA3FA /* rnn-config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,11 +637,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -708,11 +708,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
