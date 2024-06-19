@@ -91,6 +91,7 @@ export EXT_NAME="我的外部新包" ## 白包view controller name
 ## cd sdk7x_example
 
 > sudo npm install -g yarn
+> yarn set version stable
 > yarn install
 > ./scripts/rename.js "新包名"
 > pod update --project-directory=ios
