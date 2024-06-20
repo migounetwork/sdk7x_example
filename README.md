@@ -93,7 +93,7 @@ export EXT_NAME="我的外部新包" ## 白包view controller name
 > sudo npm install -g yarn
 > yarn set version stable
 > yarn install
-> ./scripts/rename.js "新包名"
+> ./scripts/rename.js --skipGitStatusCheck "新包名"
 > pod update --project-directory=ios
 > pod install --project-directory=ios
 ```
@@ -101,6 +101,7 @@ export EXT_NAME="我的外部新包" ## 白包view controller name
 > 1. 新包名会统一替换file、folder以及源码内容，才不会都以sdk7x_example做路径和档名。
 > 2. 跑完请重载xcode。
 > 3. 如果已安装pod，需要再重新跑pod install才能顺利运行。
+> 4. 透过 `yarn --version` 确认版号，必需是3.6.4以上，太低请自行升版。
 <br>
 
 
