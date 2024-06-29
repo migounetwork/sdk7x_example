@@ -533,14 +533,14 @@ PODS:
     - React-jsi (= 0.72.15)
     - React-logger (= 0.72.15)
     - React-perflogger (= 0.72.15)
-  - ReactNativeNavigation (7.40.0):
+  - ReactNativeNavigation (7.40.1):
     - HMSegmentedControl
     - React-Core
     - React-CoreModules
     - React-RCTImage
     - React-RCTText
-    - ReactNativeNavigation/Core (= 7.40.0)
-  - ReactNativeNavigation/Core (7.40.0):
+    - ReactNativeNavigation/Core (= 7.40.1)
+  - ReactNativeNavigation/Core (7.40.1):
     - HMSegmentedControl
     - React-Core
     - React-CoreModules
@@ -584,7 +584,7 @@ PODS:
     - React-Core
   - RNSVG (13.14.0):
     - React-Core
-  - RNVectorIcons (10.0.3):
+  - RNVectorIcons (10.1.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - SDWebImage (5.11.1):
@@ -922,7 +922,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: ae08ede2e0267be2a4d8ba82a54d5908949d5a34
   React-utils: 8eb3c12fd4a4da6df3824f7d9a961d73a6ed6e5d
   ReactCommon: d2de36ed3eebe700d7169b9e80f7d1a4b98e178d
-  ReactNativeNavigation: e62ba14d9cd44774dca6068b6559ec872e0e61a6
+  ReactNativeNavigation: 84cfcceb62947491beda20b96c5999c15ff5b959
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 618d03a5f52fbccb3d7010076bc54712844c18ef
   RNCClipboard: 60fed4b71560d7bfe40e9d35dea9762b024da86d
@@ -938,7 +938,7 @@ SPEC CHECKSUMS:
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
-  RNVectorIcons: 2b974a961e7ad079fafdd8af68b12210d5b4b28e
+  RNVectorIcons: 32462e7c7e58fe457474fc79c4d7de3f0ef08d70
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Sentry: c446963245407030e17f1b926a83c6337dc99f4e
