@@ -4,10 +4,6 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTLinkingManager.h>
 
-#import <AppCenterReactNative.h>
-#import <AppCenterReactNativeAnalytics.h>
-#import <AppCenterReactNativeCrashes.h>
-
 // For custom view controller
 #import "RNNCustomViewController.h"
 
@@ -41,12 +37,6 @@ static void InitializeFlipper(UIApplication *application) {
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);
 #endif
-  
-  [AppCenterReactNative register];
-  [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
-  [AppCenterReactNativeCrashes registerWithAutomaticProcessing];
-  
-  
   [super application:application didFinishLaunchingWithOptions:launchOptions];
   [ReactNativeNavigation
     registerExternalComponent:@"我的外部新包"
