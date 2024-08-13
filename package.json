@@ -17,7 +17,7 @@
     "@react-native-clipboard/clipboard": "^1.12.1",
     "@react-native-community/netinfo": "^11.1.1",
     "@react-native-community/slider": "4.4.3",
-    "@sentry/react-native": "^5.22.2",
+    "@sentry/react-native": "^5.28.0",
     "buffer": "^6.0.3",
     "deprecated-react-native-prop-types": "^5.0.0",
     "immutable": "4.3.4",
