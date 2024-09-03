@@ -94,8 +94,8 @@ export EXT_NAME="我的外部新包" ## 白包view controller name
 > yarn set version stable
 > yarn install
 > ./scripts/rename.js --skipGitStatusCheck "新包名"
-> pod update --project-directory=ios
-> pod install --project-directory=ios
+> USE_FRAMEWORKS=static NO_FLIPPER=1 pod update --project-directory=ios
+> USE_FRAMEWORKS=static NO_FLIPPER=1 pod install --project-directory=ios
 ```
 > 注意：
 > 1. 新包名会统一替换file、folder以及源码内容，才不会都以sdk7x_example做路径和档名。
