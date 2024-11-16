@@ -14,6 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-sdk7x_example-sdk7x_exampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sdk7x_example-sdk7x_exampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D3442B232CED7DA60091A96F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3442B222CED7DA60091A96F /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D36BE0662B45949900DCA3FA /* RNNNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36BE0642B45949900DCA3FA /* RNNNativeViewController.m */; };
 		D36BE0672B45949900DCA3FA /* RNNCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36BE0652B45949900DCA3FA /* RNNCustomViewController.m */; };
 		D37A68FE2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D37A68FD2BDAA0E500A66A91 /* PrivacyInfo.xcprivacy */; };
@@ -46,6 +47,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-sdk7x_example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sdk7x_example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sdk7x_example/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sdk7x_example-sdk7x_exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sdk7x_example-sdk7x_exampleTests.release.xcconfig"; path = "Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3442B222CED7DA60091A96F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		D36BE05E2B4593D100DCA3FA /* rnn-config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "rnn-config.xcconfig"; sourceTree = "<group>"; };
 		D36BE0622B45949900DCA3FA /* RNNCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNCustomViewController.h; sourceTree = "<group>"; };
 		D36BE0632B45949900DCA3FA /* RNNNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNNativeViewController.h; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-sdk7x_example.a in Frameworks */,
+				D3442B232CED7DA60091A96F /* SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3442B222CED7DA60091A96F /* SwiftUI.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-sdk7x_example.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-sdk7x_example-sdk7x_exampleTests.a */,
@@ -524,6 +528,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_IOS)";
 				PRODUCT_NAME = sdk7x_example;
@@ -554,6 +559,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_IOS)";
 				PRODUCT_NAME = sdk7x_example;
