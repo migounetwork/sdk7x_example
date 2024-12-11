@@ -351,7 +351,7 @@ PODS:
     - React-Core
   - react-native-orientation-locker (1.7.0):
     - React-Core
-  - react-native-quick-crypto (0.7.7):
+  - react-native-quick-crypto (0.7.9):
     - OpenSSL-Universal
     - RCT-Folly (= 2021.07.22.00)
     - React
@@ -367,7 +367,7 @@ PODS:
   - react-native-video/Video (6.0.0-beta.7):
     - PromisesSwift
     - React-Core
-  - react-native-webview (13.12.4):
+  - react-native-webview (13.12.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - React-NativeModulesApple (0.72.17):
@@ -517,26 +517,26 @@ PODS:
     - React-Core
   - RNReactNativeHapticFeedback (2.2.0):
     - React-Core
-  - RNReanimated (3.16.3):
+  - RNReanimated (3.16.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated (= 3.16.3)
-    - RNReanimated/worklets (= 3.16.3)
-  - RNReanimated/reanimated (3.16.3):
+    - RNReanimated/reanimated (= 3.16.5)
+    - RNReanimated/worklets (= 3.16.5)
+  - RNReanimated/reanimated (3.16.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated/apple (= 3.16.3)
-  - RNReanimated/reanimated/apple (3.16.3):
+    - RNReanimated/reanimated/apple (= 3.16.5)
+  - RNReanimated/reanimated/apple (3.16.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNReanimated/worklets (3.16.3):
+  - RNReanimated/worklets (3.16.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.3.0):
+  - RNSentry (6.4.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -821,11 +821,11 @@ SPEC CHECKSUMS:
   react-native-mmkv: b32f1737fe11d8df1a76a45eaa6e779d97fe3cbc
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
-  react-native-quick-crypto: e254783f9681542c182f9439f91139137e3b9e48
+  react-native-quick-crypto: 66da52458d7050f6b62ad8bfb8354d88ccff5813
   react-native-safe-area-context: 4532f1a0c5d34a46b9324ccaaedcb5582a302b7d
   react-native-slider: 8a2fcfd0d61c8f0d06ee05b45676a9a8e4f6f641
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
-  react-native-webview: 524f40f1131b78b142aaccc834c6b3b7735c46bc
+  react-native-webview: f284fcfdf162521ffe19fd6c68fd837f3e0ce174
   React-NativeModulesApple: 9baff5b154326151add253f2c5bcb93d20c33742
   React-perflogger: 785b0063af5178298a61b54bb46aae9a19c7bbb5
   React-RCTActionSheet: 84f37b34bd77249263ace75471d6664393c29972
@@ -854,8 +854,8 @@ SPEC CHECKSUMS:
   RNKeychain: b059737d6cbf2a01e0d6fe10419f1a7cee35530a
   RNLocalize: 298e85ce16540a11de40c1a588ead39fc5e9a072
   RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
-  RNReanimated: e8403750eea681e7f3c290a2c9413396e7fa540d
-  RNSentry: 067f9eef3696648835a9a6b7ce0ae0a2a8dbe305
+  RNReanimated: 10af2fae4130884c45302099f6827e2f372c8dac
+  RNSentry: a427653089cd19abcae177209718af682cbf3905
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
