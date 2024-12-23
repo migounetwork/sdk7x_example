@@ -499,7 +499,7 @@ PODS:
     - React-Core
   - RNCClipboard (1.15.0):
     - React-Core
-  - RNDeviceInfo (14.0.1):
+  - RNDeviceInfo (14.0.2):
     - React-Core
   - RNExitApp (2.0.0):
     - React-Core
@@ -517,22 +517,22 @@ PODS:
     - React-Core
   - RNReactNativeHapticFeedback (2.2.0):
     - React-Core
-  - RNReanimated (3.16.5):
+  - RNReanimated (3.16.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated (= 3.16.5)
-    - RNReanimated/worklets (= 3.16.5)
-  - RNReanimated/reanimated (3.16.5):
+    - RNReanimated/reanimated (= 3.16.6)
+    - RNReanimated/worklets (= 3.16.6)
+  - RNReanimated/reanimated (3.16.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated/apple (= 3.16.5)
-  - RNReanimated/reanimated/apple (3.16.5):
+    - RNReanimated/reanimated/apple (= 3.16.6)
+  - RNReanimated/reanimated/apple (3.16.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNReanimated/worklets (3.16.5):
+  - RNReanimated/worklets (3.16.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
@@ -847,14 +847,14 @@ SPEC CHECKSUMS:
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: cc6479c4acd84cc7004946946c8afe30b018184d
   RNCClipboard: 69ab8e51324d5b351f6ba72bbdb72478087a2c64
-  RNDeviceInfo: 825f0d2f4381327317f12d1522720a8f76e6a19e
+  RNDeviceInfo: 3f2e5fcca3637f75c6d30ba287293c2f97206781
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNGestureHandler: e9a9570cf592b2fa0f2dc90ae06f040d3ed4e4d3
   RNKeychain: b059737d6cbf2a01e0d6fe10419f1a7cee35530a
   RNLocalize: 298e85ce16540a11de40c1a588ead39fc5e9a072
   RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
-  RNReanimated: 10af2fae4130884c45302099f6827e2f372c8dac
+  RNReanimated: 03de95ba4eef4a06b8bfa30c785726f3bed7fc72
   RNSentry: a427653089cd19abcae177209718af682cbf3905
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
