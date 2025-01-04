@@ -28,9 +28,9 @@ PODS:
   - libwebp/sharpyuv (1.3.2)
   - libwebp/webp (1.3.2):
     - libwebp/sharpyuv
-  - MMKV (2.0.0):
-    - MMKVCore (~> 2.0.0)
-  - MMKVCore (2.0.0)
+  - MMKV (2.0.2):
+    - MMKVCore (~> 2.0.2)
+  - MMKVCore (2.0.2)
   - OpenSSL-Universal (3.3.2000)
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
@@ -351,7 +351,7 @@ PODS:
     - React-Core
   - react-native-orientation-locker (1.7.0):
     - React-Core
-  - react-native-quick-crypto (0.7.9):
+  - react-native-quick-crypto (0.7.11):
     - OpenSSL-Universal
     - RCT-Folly (= 2021.07.22.00)
     - React
@@ -536,12 +536,12 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.4.0):
+  - RNSentry (6.5.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.41.0)
+    - Sentry/HybridSDK (= 8.43.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -557,7 +557,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.41.0)
+  - Sentry/HybridSDK (8.43.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -795,8 +795,8 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
-  MMKV: f7d1d5945c8765f97f39c3d121f353d46735d801
-  MMKVCore: c04b296010fcb1d1638f2c69405096aac12f6390
+  MMKV: 3eacda84cd1c4fc95cf848d3ecb69d85ed56006c
+  MMKVCore: 508b4d3a8ce031f1b5c8bd235f0517fb3f4c73a9
   OpenSSL-Universal: b60a3702c9fea8b3145549d421fdb018e53ab7b4
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
@@ -821,7 +821,7 @@ SPEC CHECKSUMS:
   react-native-mmkv: b32f1737fe11d8df1a76a45eaa6e779d97fe3cbc
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
-  react-native-quick-crypto: 66da52458d7050f6b62ad8bfb8354d88ccff5813
+  react-native-quick-crypto: d10615b8ca93e5f1ef1670100453358076ea7bc0
   react-native-safe-area-context: 4532f1a0c5d34a46b9324ccaaedcb5582a302b7d
   react-native-slider: 8a2fcfd0d61c8f0d06ee05b45676a9a8e4f6f641
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
@@ -855,14 +855,14 @@ SPEC CHECKSUMS:
   RNLocalize: 298e85ce16540a11de40c1a588ead39fc5e9a072
   RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
   RNReanimated: 03de95ba4eef4a06b8bfa30c785726f3bed7fc72
-  RNSentry: a427653089cd19abcae177209718af682cbf3905
+  RNSentry: 44319128a3f9bb0ea3310703ba207b0d5f0f72b6
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
   RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 54d0fe6c0df448497c8ed4cce66ccf7027e1823e
+  Sentry: 532b281a53b1b45a523fd592f608956fb36e577c
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
 
