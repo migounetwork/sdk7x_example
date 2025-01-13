@@ -356,7 +356,7 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React
     - React-Core
-  - react-native-safe-area-context (4.14.0):
+  - react-native-safe-area-context (4.14.1):
     - React-Core
   - react-native-slider (4.5.5):
     - RCT-Folly (= 2021.07.22.00)
@@ -513,7 +513,7 @@ PODS:
   - RNKeychain (9.2.2):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
-  - RNLocalize (3.3.0):
+  - RNLocalize (3.4.1):
     - React-Core
   - RNReactNativeHapticFeedback (2.2.0):
     - React-Core
@@ -822,7 +822,7 @@ SPEC CHECKSUMS:
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
   react-native-quick-crypto: d10615b8ca93e5f1ef1670100453358076ea7bc0
-  react-native-safe-area-context: 4532f1a0c5d34a46b9324ccaaedcb5582a302b7d
+  react-native-safe-area-context: 141eca0fd4e4191288dfc8b96a7c7e1c2983447a
   react-native-slider: 8a2fcfd0d61c8f0d06ee05b45676a9a8e4f6f641
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
   react-native-webview: f284fcfdf162521ffe19fd6c68fd837f3e0ce174
@@ -852,7 +852,7 @@ SPEC CHECKSUMS:
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNGestureHandler: e9a9570cf592b2fa0f2dc90ae06f040d3ed4e4d3
   RNKeychain: b059737d6cbf2a01e0d6fe10419f1a7cee35530a
-  RNLocalize: 298e85ce16540a11de40c1a588ead39fc5e9a072
+  RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
   RNReanimated: 03de95ba4eef4a06b8bfa30c785726f3bed7fc72
   RNSentry: 44319128a3f9bb0ea3310703ba207b0d5f0f72b6

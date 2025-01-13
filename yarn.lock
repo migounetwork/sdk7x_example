@@ -9398,9 +9398,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-localize@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "react-native-localize@npm:3.3.0"
+"react-native-localize@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "react-native-localize@npm:3.4.1"
   peerDependencies:
     react: ">=18.1.0"
     react-native: ">=0.70.0"
@@ -9408,7 +9408,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-macos:
       optional: true
-  checksum: 10c0/5d55ad00657775d70a2530d774180ee83b21b973577071b36f022695cfde6cf840581f89dea0708f0116cb7732ea41ab0a93de18ceec0e9c4de7cf7cb28a2415
+  checksum: 10c0/5da5ab3e3cd882878ce4336773d5cadb0b636bab40e3c72cd2d41e461b771e8afd6a92bb517e2afe57b83c0d8476634b4d5cedfc3ed41c0713778f71c867697c
   languageName: node
   linkType: hard
 
@@ -9562,13 +9562,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.14.0":
-  version: 4.14.0
-  resolution: "react-native-safe-area-context@npm:4.14.0"
+"react-native-safe-area-context@npm:^4.14.1":
+  version: 4.14.1
+  resolution: "react-native-safe-area-context@npm:4.14.1"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/70d71c5ec301fe811a1b3ca78555fdf3e845731177bc2ef72fb5e5d01fa97e9e14259114fe8c5366d91eceb57272887e19323d9355453353b82b2452c716a624
+  checksum: 10c0/c34c6fe9002a89c80ddb206fc68db99f1e432e19c7cf5aaa93b430584051b7e7caf889093224029437dc5b66fe434b09e9950d755aa40b58e1e3a1f976c2fec1
   languageName: node
   linkType: hard
 
@@ -10325,7 +10325,7 @@ __metadata:
     react-native-gesture-handler: "npm:^2.21.2"
     react-native-haptic-feedback: "npm:^2.2.0"
     react-native-keychain: "npm:^9.2.0"
-    react-native-localize: "npm:^3.3.0"
+    react-native-localize: "npm:^3.4.1"
     react-native-mmkv: "npm:^2.12.2"
     react-native-modal: "npm:^13.0.1"
     react-native-navigation: "npm:^7.40.3"
@@ -10334,7 +10334,7 @@ __metadata:
     react-native-quick-crypto: "npm:^0.7.11"
     react-native-reanimated: "npm:3.16.6"
     react-native-rename: "npm:^3.2.13"
-    react-native-safe-area-context: "npm:^4.14.0"
+    react-native-safe-area-context: "npm:^4.14.1"
     react-native-share: "npm:^9.4.1"
     react-native-static-safe-area-insets: "npm:^2.2.0"
     react-native-svg: "npm:^13.14.0"
