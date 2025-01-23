@@ -9367,18 +9367,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:^2.21.2":
-  version: 2.21.2
-  resolution: "react-native-gesture-handler@npm:2.21.2"
+"react-native-gesture-handler@npm:^2.22.0":
+  version: 2.22.0
+  resolution: "react-native-gesture-handler@npm:2.22.0"
   dependencies:
     "@egjs/hammerjs": "npm:^2.0.17"
     hoist-non-react-statics: "npm:^3.3.0"
     invariant: "npm:^2.2.4"
-    prop-types: "npm:^15.7.2"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/4eca796efe9e55f312f332c07eee76adf0b29971945b72856d375f7e9a6f21a7ef5363d707b71d030c5ebccc0a3cf085713ee0365c14bc538f2f918a87986e36
+  checksum: 10c0/2a696261c1724f1fc10ebee6d5c187e6a8386754b87277eb7d81b2ef8a0d19245b0a41e80c86d0444a48d858fb08affb1fa7deecde8e3e965a6b356d353961b8
   languageName: node
   linkType: hard
 
@@ -9640,16 +9639,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-webview@npm:13.12.5":
-  version: 13.12.5
-  resolution: "react-native-webview@npm:13.12.5"
+"react-native-webview@npm:13.13.1":
+  version: 13.13.1
+  resolution: "react-native-webview@npm:13.13.1"
   dependencies:
     escape-string-regexp: "npm:^4.0.0"
     invariant: "npm:2.2.4"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/c738e622fa29837e0715e0632c8b8dafd3086bcef115353b0fab23d94169a789cefa7f7980206278612927f2fe236488eebf34795a6aa49a812a179e36c85d2c
+  checksum: 10c0/2224ca30448b72338906a9b90cc31260f6a6c88bffb02ca5b5a88272a2d115522f8262c260e0dd685126adadcb44068a56ad96c7ab3a4341ac04343013c6e091
   languageName: node
   linkType: hard
 
@@ -10322,7 +10321,7 @@ __metadata:
     react-native-elements: "npm:^3.4.3"
     react-native-exit-app: "npm:^2.0.0"
     react-native-fast-image: "npm:8.6.3"
-    react-native-gesture-handler: "npm:^2.21.2"
+    react-native-gesture-handler: "npm:^2.22.0"
     react-native-haptic-feedback: "npm:^2.2.0"
     react-native-keychain: "npm:^9.2.0"
     react-native-localize: "npm:^3.4.1"
@@ -10341,7 +10340,7 @@ __metadata:
     react-native-system-setting: "npm:^1.7.6"
     react-native-vector-icons: "npm:^10.2.0"
     react-native-video: "npm:6.0.0-beta.7"
-    react-native-webview: "npm:13.12.5"
+    react-native-webview: "npm:13.13.1"
     react-redux: "npm:8.1.3"
     react-test-renderer: "npm:18.2.0"
     redux: "npm:4.2.1"

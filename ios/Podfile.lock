@@ -367,7 +367,7 @@ PODS:
   - react-native-video/Video (6.0.0-beta.7):
     - PromisesSwift
     - React-Core
-  - react-native-webview (13.12.5):
+  - react-native-webview (13.13.1):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - React-NativeModulesApple (0.72.17):
@@ -507,7 +507,7 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.21.2):
+  - RNGestureHandler (2.22.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - RNKeychain (9.2.2):
@@ -825,7 +825,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: 141eca0fd4e4191288dfc8b96a7c7e1c2983447a
   react-native-slider: 8a2fcfd0d61c8f0d06ee05b45676a9a8e4f6f641
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
-  react-native-webview: f284fcfdf162521ffe19fd6c68fd837f3e0ce174
+  react-native-webview: 6af09f181617243fedf7457b2d05bdfea1b18963
   React-NativeModulesApple: 9baff5b154326151add253f2c5bcb93d20c33742
   React-perflogger: 785b0063af5178298a61b54bb46aae9a19c7bbb5
   React-RCTActionSheet: 84f37b34bd77249263ace75471d6664393c29972
@@ -850,7 +850,7 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 3f2e5fcca3637f75c6d30ba287293c2f97206781
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNGestureHandler: e9a9570cf592b2fa0f2dc90ae06f040d3ed4e4d3
+  RNGestureHandler: 4a94b2fcfab5852938632ef110c11dfd46d39192
   RNKeychain: b059737d6cbf2a01e0d6fe10419f1a7cee35530a
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
