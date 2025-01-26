@@ -507,7 +507,7 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.22.0):
+  - RNGestureHandler (2.22.1):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - RNKeychain (9.2.2):
@@ -515,24 +515,25 @@ PODS:
     - React-Core
   - RNLocalize (3.4.1):
     - React-Core
-  - RNReactNativeHapticFeedback (2.2.0):
+  - RNReactNativeHapticFeedback (2.3.3):
+    - RCT-Folly (= 2021.07.22.00)
     - React-Core
-  - RNReanimated (3.16.6):
+  - RNReanimated (3.16.7):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated (= 3.16.6)
-    - RNReanimated/worklets (= 3.16.6)
-  - RNReanimated/reanimated (3.16.6):
+    - RNReanimated/reanimated (= 3.16.7)
+    - RNReanimated/worklets (= 3.16.7)
+  - RNReanimated/reanimated (3.16.7):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated/apple (= 3.16.6)
-  - RNReanimated/reanimated/apple (3.16.6):
+    - RNReanimated/reanimated/apple (= 3.16.7)
+  - RNReanimated/reanimated/apple (3.16.7):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNReanimated/worklets (3.16.6):
+  - RNReanimated/worklets (3.16.7):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
@@ -850,11 +851,11 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 3f2e5fcca3637f75c6d30ba287293c2f97206781
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNGestureHandler: 4a94b2fcfab5852938632ef110c11dfd46d39192
+  RNGestureHandler: eaedbeb048456a91c686e1ba4d9e496c521076ad
   RNKeychain: b059737d6cbf2a01e0d6fe10419f1a7cee35530a
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
-  RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
-  RNReanimated: 03de95ba4eef4a06b8bfa30c785726f3bed7fc72
+  RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
+  RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
   RNSentry: 44319128a3f9bb0ea3310703ba207b0d5f0f72b6
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
