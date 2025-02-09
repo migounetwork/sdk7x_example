@@ -16,17 +16,17 @@ PODS:
   - hermes-engine/Pre-built (0.72.17)
   - HMSegmentedControl (1.5.6)
   - libevent (2.1.12)
-  - libwebp (1.3.2):
-    - libwebp/demux (= 1.3.2)
-    - libwebp/mux (= 1.3.2)
-    - libwebp/sharpyuv (= 1.3.2)
-    - libwebp/webp (= 1.3.2)
-  - libwebp/demux (1.3.2):
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
     - libwebp/webp
-  - libwebp/mux (1.3.2):
+  - libwebp/mux (1.5.0):
     - libwebp/demux
-  - libwebp/sharpyuv (1.3.2)
-  - libwebp/webp (1.3.2):
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
   - MMKV (2.0.2):
     - MMKVCore (~> 2.0.2)
@@ -537,12 +537,12 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.5.0):
+  - RNSentry (6.6.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.43.0)
+    - Sentry/HybridSDK (= 8.44.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -558,7 +558,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.43.0)
+  - Sentry/HybridSDK (8.44.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -795,7 +795,7 @@ SPEC CHECKSUMS:
   hermes-engine: 982096772bd947125ee3b4f72ace6cb9a33f1d02
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   MMKV: 3eacda84cd1c4fc95cf848d3ecb69d85ed56006c
   MMKVCore: 508b4d3a8ce031f1b5c8bd235f0517fb3f4c73a9
   OpenSSL-Universal: b60a3702c9fea8b3145549d421fdb018e53ab7b4
@@ -856,14 +856,14 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 44319128a3f9bb0ea3310703ba207b0d5f0f72b6
+  RNSentry: 78a2bf9d1385017c14f6b8a4d4e1da466c7852f7
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
   RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 532b281a53b1b45a523fd592f608956fb36e577c
+  Sentry: 0f9bc9adfc0b960e7f3bb5ec67e9a3d8193f3bdb
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
 

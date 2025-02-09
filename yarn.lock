@@ -2415,118 +2415,118 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-analytics-js@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-analytics-js@npm:3.3.4"
+"@microsoft/applicationinsights-analytics-js@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-analytics-js@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/aa354dd7e09051857bbb6144ccd8fc45de7eaac12287b3c2ec5fcd9511f7bba062e8475e3977322777c7386861e26c3ddc563d8405c70f0ff4ceb5fc29f96f58
+  checksum: 10c0/d76e153c426604dc32031d43dfeb4492ce53d41ccffe4fac1e210eb73361b9a3b018c17ce004f80e577bef47c56cd40eb3e6450691e5526ce3db9820e99a8f5b
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-cfgsync-js@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-cfgsync-js@npm:3.3.4"
+"@microsoft/applicationinsights-cfgsync-js@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-cfgsync-js@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-async": "npm:>= 0.5.2 < 2.x"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-async": "npm:>= 0.5.4 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/d29351b935984d2c1a2a1459f68d8f4c411ae5480687124a7ac7264866647e9a71aa392539a281d719ef9bc2ab9e4e00bb9c492c4b84d02599402af73e539da9
+  checksum: 10c0/fc1d9a61435084fe207db6e7e05bf74d3243e3f35ba8b79cfad4f9b7a849f637f6aa5a14eb62c1ffe75ea52e82fd397ea20eac43943034625f51892490cb132e
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-channel-js@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-channel-js@npm:3.3.4"
+"@microsoft/applicationinsights-channel-js@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-channel-js@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-async": "npm:>= 0.5.2 < 2.x"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-async": "npm:>= 0.5.4 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/b854eccc62d29d03a3f11a6e298d26adbc78c63d9b33f832e58ce1cd1a902270e30b022fb5d3f0debe55b10a2cfc47df404323117ff100343607f0b4e6b9ad37
+  checksum: 10c0/3b07f3019732f345f35117f3162356ec8a8b19b971f6b6392b0db248098cee714a372aafb0e82e8852a4e42b61a8e4301849a06b5d7ce1dbe05cd632d93be324
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-common@npm:3.3.4, @microsoft/applicationinsights-common@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-common@npm:3.3.4"
+"@microsoft/applicationinsights-common@npm:3.3.5, @microsoft/applicationinsights-common@npm:^3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-common@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/d786ed0efa0caa4d1112148ff02eb9513ac11215121c5cc20e56ae783b5eb116dd2cab0ebc3a686616120edc568ca76657a681f3018a123fa87380b04e75c35c
+  checksum: 10c0/06db821270b8adb932aa2b5c12ae05fddbcda25be4fae2beef7cbc0e7d1a2e670d72b37c0f1217c6488c70ad04412844673c493de0df6cb5adcd67234bace2a0
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-core-js@npm:3.3.4, @microsoft/applicationinsights-core-js@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-core-js@npm:3.3.4"
+"@microsoft/applicationinsights-core-js@npm:3.3.5, @microsoft/applicationinsights-core-js@npm:^3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-core-js@npm:3.3.5"
   dependencies:
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-async": "npm:>= 0.5.2 < 2.x"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-async": "npm:>= 0.5.4 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/85275baf78f7652f3a10566e1cf0fc85ab9064e119811a83e3220a17f6352d9247aee30aa4e7f00cdf42207627baef5fe6c4e9620249d8a739bca23a9c308752
+  checksum: 10c0/cafb822e9e2413b5f57240894148ec09a7116c7f9be2bc333a959cf93aae87041d6d374edcf2ebbd7f6f3646c0d8cec10d872184dcd8882bdbfc3983ba970e68
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-dependencies-js@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-dependencies-js@npm:3.3.4"
+"@microsoft/applicationinsights-dependencies-js@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-dependencies-js@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-async": "npm:>= 0.5.2 < 2.x"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-async": "npm:>= 0.5.4 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/7cacf2cd3d689ce4e9e19958812fd70f56fa3c6cf618b3bf6fa667ab413c4159ba5eab1edb3254d794ee3790d6a8bd4b5364e9784f195df255c174d3e9d248be
+  checksum: 10c0/988bc62abc0cd41b36e5f0a5f10e402d4ed9d432fe6ae57592ee6d8f26d1645781f349e30d85fe2f3b986cabcf2b72075156c2072f688ebeffd04b87f2a013b2
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-properties-js@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-properties-js@npm:3.3.4"
+"@microsoft/applicationinsights-properties-js@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-properties-js@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/cd722643f3b3e8b432ff1ed060da3b6cb5f3e1097b2de5590be95e4495935610632caa3a4ba4fc95e1cb3d10efbeded40f334b087b0d35f3982fa9c2a8b97365
+  checksum: 10c0/488f550281964b6f864e7c41827c67856f3193153835980068059151df83b7bc746cd2529904dab40e9b385f54468c7d137af122dd6d2c20bb5c1011b3443758
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-react-native@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "@microsoft/applicationinsights-react-native@npm:4.3.4"
+"@microsoft/applicationinsights-react-native@npm:^4.3.5":
+  version: 4.3.5
+  resolution: "@microsoft/applicationinsights-react-native@npm:4.3.5"
   dependencies:
-    "@microsoft/applicationinsights-common": "npm:^3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:^3.3.4"
+    "@microsoft/applicationinsights-common": "npm:^3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:^3.3.5"
     "@microsoft/applicationinsights-shims": "npm:^3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
     "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
@@ -2537,7 +2537,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-device-info:
       optional: true
-  checksum: 10c0/42fbffa758e92bbb20240f7ef2b9ca53d4b1bd38ae4db4e6b2ed2b2dfafe8576a6d55463902b6bb2507d3bd8a22b950125aa37555cc099e6c1233e8e4c6975d4
+  checksum: 10c0/1387c8902ab58e849ef99fa1abeb780c7b9372d9c59122c3f97c693a9c1972557e0082ecc72cd808e9bbf4bff81fb6763759bfb35b5275471472a286b1779308
   languageName: node
   linkType: hard
 
@@ -2550,24 +2550,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/applicationinsights-web@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "@microsoft/applicationinsights-web@npm:3.3.4"
+"@microsoft/applicationinsights-web@npm:^3.3.5":
+  version: 3.3.5
+  resolution: "@microsoft/applicationinsights-web@npm:3.3.5"
   dependencies:
-    "@microsoft/applicationinsights-analytics-js": "npm:3.3.4"
-    "@microsoft/applicationinsights-cfgsync-js": "npm:3.3.4"
-    "@microsoft/applicationinsights-channel-js": "npm:3.3.4"
-    "@microsoft/applicationinsights-common": "npm:3.3.4"
-    "@microsoft/applicationinsights-core-js": "npm:3.3.4"
-    "@microsoft/applicationinsights-dependencies-js": "npm:3.3.4"
-    "@microsoft/applicationinsights-properties-js": "npm:3.3.4"
+    "@microsoft/applicationinsights-analytics-js": "npm:3.3.5"
+    "@microsoft/applicationinsights-cfgsync-js": "npm:3.3.5"
+    "@microsoft/applicationinsights-channel-js": "npm:3.3.5"
+    "@microsoft/applicationinsights-common": "npm:3.3.5"
+    "@microsoft/applicationinsights-core-js": "npm:3.3.5"
+    "@microsoft/applicationinsights-dependencies-js": "npm:3.3.5"
+    "@microsoft/applicationinsights-properties-js": "npm:3.3.5"
     "@microsoft/applicationinsights-shims": "npm:3.0.1"
     "@microsoft/dynamicproto-js": "npm:^2.0.3"
-    "@nevware21/ts-async": "npm:>= 0.5.2 < 2.x"
-    "@nevware21/ts-utils": "npm:>= 0.11.3 < 2.x"
+    "@nevware21/ts-async": "npm:>= 0.5.4 < 2.x"
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
   peerDependencies:
     tslib: ">= 1.0.0"
-  checksum: 10c0/73966779b488694374f2333a4bd17ee4fd1e0d1178f7310c48c4b9ff4840a3921a9d4410c4295e3bee7dc62110efc83520514cc7f4a90aab769f5184fc4e965b
+  checksum: 10c0/afe20e0801dc1ce4d37ef40215fecb450e2dd648956453a211e17bd96c9b00fad7f441e18c8910d767445acd08f17d60c953321e5aa7802fe4c01a3895e59fda
   languageName: node
   linkType: hard
 
@@ -2580,19 +2580,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nevware21/ts-async@npm:>= 0.5.2 < 2.x":
-  version: 0.5.3
-  resolution: "@nevware21/ts-async@npm:0.5.3"
+"@nevware21/ts-async@npm:>= 0.5.4 < 2.x":
+  version: 0.5.4
+  resolution: "@nevware21/ts-async@npm:0.5.4"
   dependencies:
-    "@nevware21/ts-utils": "npm:>= 0.11.5 < 2.x"
-  checksum: 10c0/24388edadc19de33f4b35fafd821188368fb699ddb9ac1a580c8c0bf247dcfacb0bcdfdb861263bf2b67711ee7225e15d7d509cf8620ea4d0d02060eea7c44e1
+    "@nevware21/ts-utils": "npm:>= 0.11.6 < 2.x"
+  checksum: 10c0/c57097bfbd6c50b318626bae99f09fabb03e28b36df1a63aa25589bb291d9a55be89d6ab6b09ba5216240a9a01e0f0691594636e53ae8ea67393d186dd829b62
   languageName: node
   linkType: hard
 
-"@nevware21/ts-utils@npm:>= 0.10.4 < 2.x, @nevware21/ts-utils@npm:>= 0.11.3 < 2.x, @nevware21/ts-utils@npm:>= 0.11.5 < 2.x, @nevware21/ts-utils@npm:>= 0.9.4 < 2.x":
+"@nevware21/ts-utils@npm:>= 0.10.4 < 2.x, @nevware21/ts-utils@npm:>= 0.11.3 < 2.x, @nevware21/ts-utils@npm:>= 0.9.4 < 2.x":
   version: 0.11.5
   resolution: "@nevware21/ts-utils@npm:0.11.5"
   checksum: 10c0/63877de4f3ddaae6df32811b4a6cc9e8529f89cd9087d88d57b93432995ab4e70570cc12475d6417914e93acf95f30aa1d19b087f7ed5976c67fbc764b1c8006
+  languageName: node
+  linkType: hard
+
+"@nevware21/ts-utils@npm:>= 0.11.6 < 2.x":
+  version: 0.11.6
+  resolution: "@nevware21/ts-utils@npm:0.11.6"
+  checksum: 10c0/ff663b95fe3db96aa98fed8c1e93fe3eeaa800455b8fafce48a07b12b61a8664a2e89711e0d29454b58a5d9be62c2ae9d5ed55483af352e8e2750d2f41ee5142
   languageName: node
   linkType: hard
 
@@ -3000,41 +3007,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry-internal/browser-utils@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry-internal/browser-utils@npm:8.47.0"
+"@sentry-internal/browser-utils@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry-internal/browser-utils@npm:8.53.0"
   dependencies:
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/a7ed5e5c1dce8e0bda7181256bee400afdded11ad22106923016b67ac2b1ddb05f24060775132ed1a1ddcf0fb4a355285bfeb29c1d6f636783ff53a18e311cd9
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/16adb66fa5029d1d845b983b4b20bb15dfdadad89fe1740f43e3848c7701f38a77aa11b4db0c603859633857b09eea2a8a551abe13e1c39284494ac3269ea5ae
   languageName: node
   linkType: hard
 
-"@sentry-internal/feedback@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry-internal/feedback@npm:8.47.0"
+"@sentry-internal/feedback@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry-internal/feedback@npm:8.53.0"
   dependencies:
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/50afe82741a95f39f6f349f2d99e95e12dc46e3833643d352003e2dc940df1170be8e153fa79c6068beed0f04183964546576dbd46530b1797d82b27926af6c3
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/4f9b8d2adb2b636159f8a54a65831895facbf29500ea6901944d2fdd1aeb9567d9bad33a9110360f012fa380ee02902941d6f43e6ba2c738f7c74d11e39c84de
   languageName: node
   linkType: hard
 
-"@sentry-internal/replay-canvas@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry-internal/replay-canvas@npm:8.47.0"
+"@sentry-internal/replay-canvas@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry-internal/replay-canvas@npm:8.53.0"
   dependencies:
-    "@sentry-internal/replay": "npm:8.47.0"
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/59f8df7786aef4dd8437137b8367cf307e7f3cd4244b5c3574d89ae1d321009fdadc816357f61308d03603ff7e372f664c271cdad2c090ea0f302cfe0a8501aa
+    "@sentry-internal/replay": "npm:8.53.0"
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/87b4e60c42cc1a5ef991e12b3d2189cc2fb64da876d98fee70b2f468cbbb426a04e336a90efe65e568bcd02b1cfb727ba4dadc3c79273d46c3c9eee77d08ce34
   languageName: node
   linkType: hard
 
-"@sentry-internal/replay@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry-internal/replay@npm:8.47.0"
+"@sentry-internal/replay@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry-internal/replay@npm:8.53.0"
   dependencies:
-    "@sentry-internal/browser-utils": "npm:8.47.0"
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/fa9bdecdb053db81ab6b9bbf60a0ce942de67bb22c72798f0667a96d9b285b177ae78c11b505ca4e9098518cf3b97902b31020fe08d3c52696e7e66c22c1dff2
+    "@sentry-internal/browser-utils": "npm:8.53.0"
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/5ad839d3f4518fa810af5f8af29f7d19928d01fe84981edfce885a9ac48df54f0741e930bda024db42e7d9245b9565dd9ef870f01774211866a5c9b8c7df1b12
   languageName: node
   linkType: hard
 
@@ -3045,79 +3052,79 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/browser@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry/browser@npm:8.47.0"
+"@sentry/browser@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry/browser@npm:8.53.0"
   dependencies:
-    "@sentry-internal/browser-utils": "npm:8.47.0"
-    "@sentry-internal/feedback": "npm:8.47.0"
-    "@sentry-internal/replay": "npm:8.47.0"
-    "@sentry-internal/replay-canvas": "npm:8.47.0"
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/6ba52add6600aadd7c3cf08b0013cdddab38035a2a2aabbb3074a37a4698ec5875e73210356ee3c4ddf42a41c32befd9fe016ed99c5697c6808eb26e2940d556
+    "@sentry-internal/browser-utils": "npm:8.53.0"
+    "@sentry-internal/feedback": "npm:8.53.0"
+    "@sentry-internal/replay": "npm:8.53.0"
+    "@sentry-internal/replay-canvas": "npm:8.53.0"
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/a6994abf6d0cbdaf4ef4f3304f2414e5b77aa8fe09ec8c55d589813325ee10c7a269a19571859ccf2571fb8589b124f32378773a4804e8c38527294ef3b7af8c
   languageName: node
   linkType: hard
 
-"@sentry/cli-darwin@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-darwin@npm:2.39.1"
+"@sentry/cli-darwin@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-darwin@npm:2.41.1"
   conditions: os=darwin
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm64@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-linux-arm64@npm:2.39.1"
+"@sentry/cli-linux-arm64@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-linux-arm64@npm:2.41.1"
   conditions: (os=linux | os=freebsd) & cpu=arm64
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-linux-arm@npm:2.39.1"
+"@sentry/cli-linux-arm@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-linux-arm@npm:2.41.1"
   conditions: (os=linux | os=freebsd) & cpu=arm
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-i686@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-linux-i686@npm:2.39.1"
+"@sentry/cli-linux-i686@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-linux-i686@npm:2.41.1"
   conditions: (os=linux | os=freebsd) & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-x64@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-linux-x64@npm:2.39.1"
+"@sentry/cli-linux-x64@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-linux-x64@npm:2.41.1"
   conditions: (os=linux | os=freebsd) & cpu=x64
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-i686@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-win32-i686@npm:2.39.1"
+"@sentry/cli-win32-i686@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-win32-i686@npm:2.41.1"
   conditions: os=win32 & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-x64@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli-win32-x64@npm:2.39.1"
+"@sentry/cli-win32-x64@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli-win32-x64@npm:2.41.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@sentry/cli@npm:2.39.1":
-  version: 2.39.1
-  resolution: "@sentry/cli@npm:2.39.1"
+"@sentry/cli@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@sentry/cli@npm:2.41.1"
   dependencies:
-    "@sentry/cli-darwin": "npm:2.39.1"
-    "@sentry/cli-linux-arm": "npm:2.39.1"
-    "@sentry/cli-linux-arm64": "npm:2.39.1"
-    "@sentry/cli-linux-i686": "npm:2.39.1"
-    "@sentry/cli-linux-x64": "npm:2.39.1"
-    "@sentry/cli-win32-i686": "npm:2.39.1"
-    "@sentry/cli-win32-x64": "npm:2.39.1"
+    "@sentry/cli-darwin": "npm:2.41.1"
+    "@sentry/cli-linux-arm": "npm:2.41.1"
+    "@sentry/cli-linux-arm64": "npm:2.41.1"
+    "@sentry/cli-linux-i686": "npm:2.41.1"
+    "@sentry/cli-linux-x64": "npm:2.41.1"
+    "@sentry/cli-win32-i686": "npm:2.41.1"
+    "@sentry/cli-win32-x64": "npm:2.41.1"
     https-proxy-agent: "npm:^5.0.0"
     node-fetch: "npm:^2.6.7"
     progress: "npm:^2.0.3"
@@ -3140,28 +3147,28 @@ __metadata:
       optional: true
   bin:
     sentry-cli: bin/sentry-cli
-  checksum: 10c0/fcef4ac58a268f1c4242360ac74fef319a7e629d4168b1cf22c67c7d4e5d1fdf3613c29a949c570cb0375a42a289a13ba495545b60cda037f9783254abd7b4c8
+  checksum: 10c0/42b33b6a45c2380a25f6f00ad4c81135ff6604e38b52b9399fbd611c92bf1ec471abf118d2e83ec3e72ad6436634f638575f1fa89be215e5a1a1831adb0e55c5
   languageName: node
   linkType: hard
 
-"@sentry/core@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry/core@npm:8.47.0"
-  checksum: 10c0/64fc9c89e96f2989b63bd6e776afd09993ce59caca9d4003033a12ea2b938ba28b588a9d171462605467ebe18b75a465ca875faf10f69f00ef2cc5d7d05df43a
+"@sentry/core@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry/core@npm:8.53.0"
+  checksum: 10c0/22009a4648523790824f86cba37cfbdbb8da13ed2caded7963026223599d638b41e75ee74cbbb404ae9850db6149aee64a93a1a85445f7d25d0efff84cdf3b7e
   languageName: node
   linkType: hard
 
-"@sentry/react-native@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@sentry/react-native@npm:6.5.0"
+"@sentry/react-native@npm:6.6.0":
+  version: 6.6.0
+  resolution: "@sentry/react-native@npm:6.6.0"
   dependencies:
     "@sentry/babel-plugin-component-annotate": "npm:2.20.1"
-    "@sentry/browser": "npm:8.47.0"
-    "@sentry/cli": "npm:2.39.1"
-    "@sentry/core": "npm:8.47.0"
-    "@sentry/react": "npm:8.47.0"
-    "@sentry/types": "npm:8.47.0"
-    "@sentry/utils": "npm:8.47.0"
+    "@sentry/browser": "npm:8.53.0"
+    "@sentry/cli": "npm:2.41.1"
+    "@sentry/core": "npm:8.53.0"
+    "@sentry/react": "npm:8.53.0"
+    "@sentry/types": "npm:8.53.0"
+    "@sentry/utils": "npm:8.53.0"
   peerDependencies:
     expo: ">=49.0.0"
     react: ">=17.0.0"
@@ -3171,38 +3178,38 @@ __metadata:
       optional: true
   bin:
     sentry-expo-upload-sourcemaps: scripts/expo-upload-sourcemaps.js
-  checksum: 10c0/e1f440669bb7033b8eebc331b55e48a6e4b334aa2946de71be2a478f35d79335414cbf2975c9d76c4878ed277b9eefdf0c853826f0cc5a74b93f5fa80945ba25
+  checksum: 10c0/1921e4654dac5e237e38f0137917e6213260943817592604a62d4d9d2c958d407213a88f626148f2079c713cf137482a53ab2f5942833efaf7dd166486d936f8
   languageName: node
   linkType: hard
 
-"@sentry/react@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry/react@npm:8.47.0"
+"@sentry/react@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry/react@npm:8.53.0"
   dependencies:
-    "@sentry/browser": "npm:8.47.0"
-    "@sentry/core": "npm:8.47.0"
+    "@sentry/browser": "npm:8.53.0"
+    "@sentry/core": "npm:8.53.0"
     hoist-non-react-statics: "npm:^3.3.2"
   peerDependencies:
     react: ^16.14.0 || 17.x || 18.x || 19.x
-  checksum: 10c0/91322fa70f7bd75e5b038046ebde7840219daf1243e52d710d7881ea8a062f44005082e8d2948378019c3e4f2b2593189f2ecc51560416d542740e2ce39357d7
+  checksum: 10c0/d3bb41242fc5e4dbc2006136c58299db1ca49a85937159da25f6f43c0c6b0832ef7a884efeea88de765edb468966cc2075acf4cd011ff603c991e9ef264ef630
   languageName: node
   linkType: hard
 
-"@sentry/types@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry/types@npm:8.47.0"
+"@sentry/types@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry/types@npm:8.53.0"
   dependencies:
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/5287890cb5a038a5798f4ede132cefbf86598aa3b3e6ab3bbd3a4735e8e79fc13da6893057b88c96e4d396a4388356d672ad474d6047a575afe798cd1ebdbaad
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/d8e77fbe8f46807a28c3d6682a273db6277261acd5ba6df83959c3057253b51150eaf81779eb453ef4eea58d808f7b1a2958425c4abe21973fe97987a3653d70
   languageName: node
   linkType: hard
 
-"@sentry/utils@npm:8.47.0":
-  version: 8.47.0
-  resolution: "@sentry/utils@npm:8.47.0"
+"@sentry/utils@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@sentry/utils@npm:8.53.0"
   dependencies:
-    "@sentry/core": "npm:8.47.0"
-  checksum: 10c0/6be4c375732ac382dbc93513c26d04fa3ad454e3c459e2b7ec43805282fb11f2fabb9fed40dd0ff8f2131f31912e3f9763cfd5f1b6543cea2e0cd441e973cf31
+    "@sentry/core": "npm:8.53.0"
+  checksum: 10c0/a318d4c5132f2b16e81c4e23b56e39dbc34f506e1f02cb6f4f1d0ca61814c2c5c29094a5a8699bfb32590e684dd17e6905899e36db03095df4df150bf96d69f8
   languageName: node
   linkType: hard
 
@@ -10290,15 +10297,15 @@ __metadata:
     "@babel/core": "npm:^7.20.0"
     "@babel/preset-env": "npm:^7.20.0"
     "@babel/runtime": "npm:^7.20.0"
-    "@microsoft/applicationinsights-react-native": "npm:^4.3.4"
-    "@microsoft/applicationinsights-web": "npm:^3.3.4"
+    "@microsoft/applicationinsights-react-native": "npm:^4.3.5"
+    "@microsoft/applicationinsights-web": "npm:^3.3.5"
     "@react-native-async-storage/async-storage": "npm:^2.1.0"
     "@react-native-clipboard/clipboard": "npm:^1.15.0"
     "@react-native-community/netinfo": "npm:^11.4.1"
     "@react-native-community/slider": "npm:4.5.5"
     "@react-native/eslint-config": "npm:^0.72.2"
     "@react-native/metro-config": "npm:^0.72.12"
-    "@sentry/react-native": "npm:6.5.0"
+    "@sentry/react-native": "npm:6.6.0"
     "@tsconfig/react-native": "npm:^3.0.0"
     "@types/react": "npm:^18.0.24"
     "@types/react-test-renderer": "npm:^18.0.0"
