@@ -358,7 +358,7 @@ PODS:
     - React-Core
   - react-native-safe-area-context (4.14.1):
     - React-Core
-  - react-native-slider (4.5.5):
+  - react-native-slider (4.5.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - react-native-video (6.0.0-beta.7):
@@ -499,7 +499,7 @@ PODS:
     - React-Core
   - RNCClipboard (1.15.0):
     - React-Core
-  - RNDeviceInfo (14.0.2):
+  - RNDeviceInfo (14.0.4):
     - React-Core
   - RNExitApp (2.0.0):
     - React-Core
@@ -537,12 +537,12 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.7.0):
+  - RNSentry (6.9.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.44.0)
+    - Sentry/HybridSDK (= 8.45.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -558,7 +558,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.44.0)
+  - Sentry/HybridSDK (8.45.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -824,7 +824,7 @@ SPEC CHECKSUMS:
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
   react-native-quick-crypto: d10615b8ca93e5f1ef1670100453358076ea7bc0
   react-native-safe-area-context: 141eca0fd4e4191288dfc8b96a7c7e1c2983447a
-  react-native-slider: 8a2fcfd0d61c8f0d06ee05b45676a9a8e4f6f641
+  react-native-slider: 11c3710f5f75d3fd8858994307e7cf7353531556
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
   react-native-webview: 99b6f6cb7c465600a8e909248010431688a005ce
   React-NativeModulesApple: 9baff5b154326151add253f2c5bcb93d20c33742
@@ -848,7 +848,7 @@ SPEC CHECKSUMS:
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 03861ec2e1e46b20e51963c62c51dc288beb7c43
   RNCClipboard: 69ab8e51324d5b351f6ba72bbdb72478087a2c64
-  RNDeviceInfo: 3f2e5fcca3637f75c6d30ba287293c2f97206781
+  RNDeviceInfo: feea80a690d2bde1fe51461cf548039258bd03f2
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNGestureHandler: eaedbeb048456a91c686e1ba4d9e496c521076ad
@@ -856,14 +856,14 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 18afa406f3aae07b41b6a0d7c1b2d1869258dcce
+  RNSentry: 8e4f84d5efd10131f25d47e5f3cfa84b4894bb41
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
   RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 0f9bc9adfc0b960e7f3bb5ec67e9a3d8193f3bdb
+  Sentry: f7c0c4b82e2f7e5909a660544dfaff84e35d5e03
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
 
