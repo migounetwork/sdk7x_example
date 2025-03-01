@@ -2668,14 +2668,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@react-native-async-storage/async-storage@npm:2.1.1"
+"@react-native-async-storage/async-storage@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@react-native-async-storage/async-storage@npm:2.1.2"
   dependencies:
     merge-options: "npm:^3.0.4"
   peerDependencies:
     react-native: ^0.0.0-0 || >=0.65 <1.0
-  checksum: 10c0/16858168576f034945f1180c9fdb57c54f1de1c80d08054f5d15f43347ac5e85b08f2af31fe632d673e9c09d65b8035bb3c77b61ba1d0dcd0f59240de4ae2ef5
+  checksum: 10c0/8f3d6ff1b32ef8705c5c8be8248988cfbfd571c0e8142b8aef15429f13ddc9a018792b4be837215f6592c76b9cd99a931d4f0ab4182eebd8bddede458d484053
   languageName: node
   linkType: hard
 
@@ -9397,10 +9397,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-keychain@npm:^9.2.2":
-  version: 9.2.2
-  resolution: "react-native-keychain@npm:9.2.2"
-  checksum: 10c0/9f24f38ee6ff234e8bfcedda02f62b9625a08b14c2317ebc71b7cf1aa6f841209f6876890170142c2ad0f458ddfccf8d98e0d7ad099e9105093e9cba7678ca78
+"react-native-keychain@npm:^9.2.3":
+  version: 9.2.3
+  resolution: "react-native-keychain@npm:9.2.3"
+  checksum: 10c0/aba1cb083e3703f9ca5ad755eee6303eed19dc8f56ff144bd828d5770086ff9c4fe2f30ce42d94b88d9ffdbbb14e4363907d3d740e8abee2dfe3c2b5baa603bf
   languageName: node
   linkType: hard
 
@@ -9500,16 +9500,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-quick-crypto@npm:^0.7.11":
-  version: 0.7.11
-  resolution: "react-native-quick-crypto@npm:0.7.11"
+"react-native-quick-crypto@npm:^0.7.12":
+  version: 0.7.12
+  resolution: "react-native-quick-crypto@npm:0.7.12"
   dependencies:
     "@craftzdog/react-native-buffer": "npm:^6.0.5"
     events: "npm:^3.3.0"
     readable-stream: "npm:^4.5.2"
     string_decoder: "npm:^1.3.0"
     util: "npm:^0.12.5"
-  checksum: 10c0/a27250b32cdac21aa75be970d54f2f35174c30fafd67215398f5c8066299d04258e47d21942f8136b0d20dd7ccb4fa9d20f7aaccdd4d9b204fe1a39051c7011c
+  checksum: 10c0/acc7bf1da4f86845696a1afd3e4a3ac68eb3a333e65f6ab56499143e25fe13f435a86df3a2f6c32e9132e1f3ce0ba86d8d3e02876aff25ba2a30b6b2406d6b11
   languageName: node
   linkType: hard
 
@@ -10299,7 +10299,7 @@ __metadata:
     "@babel/runtime": "npm:^7.20.0"
     "@microsoft/applicationinsights-react-native": "npm:^4.3.5"
     "@microsoft/applicationinsights-web": "npm:^3.3.5"
-    "@react-native-async-storage/async-storage": "npm:^2.1.1"
+    "@react-native-async-storage/async-storage": "npm:^2.1.2"
     "@react-native-clipboard/clipboard": "npm:^1.15.0"
     "@react-native-community/netinfo": "npm:^11.4.1"
     "@react-native-community/slider": "npm:4.5.6"
@@ -10330,14 +10330,14 @@ __metadata:
     react-native-fast-image: "npm:8.6.3"
     react-native-gesture-handler: "npm:^2.22.1"
     react-native-haptic-feedback: "npm:^2.3.3"
-    react-native-keychain: "npm:^9.2.2"
+    react-native-keychain: "npm:^9.2.3"
     react-native-localize: "npm:^3.4.1"
     react-native-mmkv: "npm:^2.12.2"
     react-native-modal: "npm:^13.0.1"
     react-native-navigation: "npm:^7.43.0"
     react-native-orientation-locker: "npm:1.7.0"
     react-native-progress: "npm:^5.0.1"
-    react-native-quick-crypto: "npm:^0.7.11"
+    react-native-quick-crypto: "npm:^0.7.12"
     react-native-reanimated: "npm:3.16.7"
     react-native-rename: "npm:^3.2.13"
     react-native-safe-area-context: "npm:^4.14.1"
