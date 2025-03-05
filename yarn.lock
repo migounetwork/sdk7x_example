@@ -9310,15 +9310,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-config@npm:1.5.3":
-  version: 1.5.3
-  resolution: "react-native-config@npm:1.5.3"
+"react-native-config@npm:1.5.5":
+  version: 1.5.5
+  resolution: "react-native-config@npm:1.5.5"
   peerDependencies:
     react-native-windows: ">=0.61"
   peerDependenciesMeta:
     react-native-windows:
       optional: true
-  checksum: 10c0/98e4659191881a72bf756efa469debe90b84ba5f366489dbdebabd45b4f9ec5b05f116db5bdf181c5c688b759c5bc60365b675ff7446b10216056cef15b5ce3b
+  checksum: 10c0/8fa0b1202b9a7daee4c41ef95baa7adc70fdcaeb4d604dace9ff0c47963d96879b66720cc4e77557a99dacd71453ac99c4607bc2a24ea37e274c4d6d39dab18e
   languageName: node
   linkType: hard
 
@@ -9568,13 +9568,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.14.1":
-  version: 4.14.1
-  resolution: "react-native-safe-area-context@npm:4.14.1"
+"react-native-safe-area-context@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "react-native-safe-area-context@npm:5.3.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/c34c6fe9002a89c80ddb206fc68db99f1e432e19c7cf5aaa93b430584051b7e7caf889093224029437dc5b66fe434b09e9950d755aa40b58e1e3a1f976c2fec1
+  checksum: 10c0/3732f85444342f58f17709ecbbcfe754a0ebda1030765e8df0ce80413e95fcb34ee7d5e83b4627fbf383c13eeb50554c244aff3d908734eab67807aa6ca23bb6
   languageName: node
   linkType: hard
 
@@ -10219,7 +10219,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.8.1, rxjs@npm:^7.0.0":
+"rxjs@npm:7.8.2":
+  version: 7.8.2
+  resolution: "rxjs@npm:7.8.2"
+  dependencies:
+    tslib: "npm:^2.1.0"
+  checksum: 10c0/1fcd33d2066ada98ba8f21fcbbcaee9f0b271de1d38dc7f4e256bfbc6ffcdde68c8bfb69093de7eeb46f24b1fb820620bf0223706cff26b4ab99a7ff7b2e2c45
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:^7.0.0":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
@@ -10322,7 +10331,7 @@ __metadata:
     react: "npm:18.2.0"
     react-native: "npm:0.72.17"
     react-native-airplay-button: "npm:^1.1.0"
-    react-native-config: "npm:1.5.3"
+    react-native-config: "npm:1.5.5"
     react-native-device-info: "npm:^14.0.4"
     react-native-dropdownalert: "npm:^5.1.0"
     react-native-elements: "npm:^3.4.3"
@@ -10340,7 +10349,7 @@ __metadata:
     react-native-quick-crypto: "npm:^0.7.12"
     react-native-reanimated: "npm:3.16.7"
     react-native-rename: "npm:^3.2.13"
-    react-native-safe-area-context: "npm:^4.14.1"
+    react-native-safe-area-context: "npm:^5.3.0"
     react-native-share: "npm:^9.4.1"
     react-native-static-safe-area-insets: "npm:^2.2.0"
     react-native-svg: "npm:^13.14.0"
@@ -10354,7 +10363,7 @@ __metadata:
     redux-immutable: "npm:4.0.0"
     redux-observable: "npm:2.0.0"
     rn-fetch-blob: "npm:^0.12.0"
-    rxjs: "npm:7.8.1"
+    rxjs: "npm:7.8.2"
     typescript: "npm:4.8.4"
     urijs: "npm:^1.19.11"
   languageName: unknown
