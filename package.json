@@ -11,13 +11,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-react-native": "^4.3.5",
-    "@microsoft/applicationinsights-web": "^3.3.5",
+    "@microsoft/applicationinsights-react-native": "^4.3.6",
+    "@microsoft/applicationinsights-web": "^3.3.6",
     "@react-native-async-storage/async-storage": "^2.1.2",
-    "@react-native-clipboard/clipboard": "^1.15.0",
+    "@react-native-clipboard/clipboard": "^1.16.2",
     "@react-native-community/netinfo": "^11.4.1",
     "@react-native-community/slider": "4.5.6",
-    "@sentry/react-native": "6.9.0",
+    "@sentry/react-native": "6.9.1",
     "buffer": "^6.0.3",
     "deprecated-react-native-prop-types": "^5.0.0",
     "immutable": "4.3.4",

@@ -497,7 +497,7 @@ PODS:
     - React-Core
   - RNCAsyncStorage (2.1.2):
     - React-Core
-  - RNCClipboard (1.15.0):
+  - RNCClipboard (1.16.2):
     - React-Core
   - RNDeviceInfo (14.0.4):
     - React-Core
@@ -537,7 +537,7 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.9.0):
+  - RNSentry (6.9.1):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -847,7 +847,7 @@ SPEC CHECKSUMS:
   ReactNativeNavigation: 6ef5f2d34477e0c50e0969e4c6f88d2ad7e866ae
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: addfc2cb6511dbe199c56c6b26ede383b6c38919
-  RNCClipboard: 69ab8e51324d5b351f6ba72bbdb72478087a2c64
+  RNCClipboard: 4411a880506f11fbcbdc03b5093eb8ffb246d900
   RNDeviceInfo: feea80a690d2bde1fe51461cf548039258bd03f2
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
@@ -856,7 +856,7 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 8e4f84d5efd10131f25d47e5f3cfa84b4894bb41
+  RNSentry: 5bf13ca1fbc6f2da94512087c49a05e11c6877cb
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
