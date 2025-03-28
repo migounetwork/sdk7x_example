@@ -31,7 +31,7 @@ PODS:
   - MMKV (2.0.2):
     - MMKVCore (~> 2.0.2)
   - MMKVCore (2.0.2)
-  - OpenSSL-Universal (3.3.2000)
+  - OpenSSL-Universal (3.3.3000)
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
@@ -367,7 +367,7 @@ PODS:
   - react-native-video/Video (6.0.0-beta.7):
     - PromisesSwift
     - React-Core
-  - react-native-webview (13.13.2):
+  - react-native-webview (13.13.5):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
   - React-NativeModulesApple (0.72.17):
@@ -537,12 +537,12 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.9.1):
+  - RNSentry (6.10.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.45.0)
+    - Sentry/HybridSDK (= 8.48.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -558,7 +558,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.45.0)
+  - Sentry/HybridSDK (8.48.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -798,7 +798,7 @@ SPEC CHECKSUMS:
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   MMKV: 3eacda84cd1c4fc95cf848d3ecb69d85ed56006c
   MMKVCore: 508b4d3a8ce031f1b5c8bd235f0517fb3f4c73a9
-  OpenSSL-Universal: b60a3702c9fea8b3145549d421fdb018e53ab7b4
+  OpenSSL-Universal: d776ce24dab24323e6995dfb17c64d598885d05c
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
@@ -826,7 +826,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: f6fd1adb0c0dfb0a528f561c7c6f9297f3391af3
   react-native-slider: 11c3710f5f75d3fd8858994307e7cf7353531556
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
-  react-native-webview: 99b6f6cb7c465600a8e909248010431688a005ce
+  react-native-webview: 81c83dd8ad6f3bf0ecde102b3e84cd4844d759d9
   React-NativeModulesApple: 9baff5b154326151add253f2c5bcb93d20c33742
   React-perflogger: 785b0063af5178298a61b54bb46aae9a19c7bbb5
   React-RCTActionSheet: 84f37b34bd77249263ace75471d6664393c29972
@@ -856,14 +856,14 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 5bf13ca1fbc6f2da94512087c49a05e11c6877cb
+  RNSentry: 15aec9e6657226e93802f76bc3aefdb15e2c61c7
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
   RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: f7c0c4b82e2f7e5909a660544dfaff84e35d5e03
+  Sentry: 1ca8405451040482877dcd344dfa3ef80b646631
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
 
