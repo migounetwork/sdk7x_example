@@ -3072,74 +3072,74 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-darwin@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-darwin@npm:2.43.0"
+"@sentry/cli-darwin@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-darwin@npm:2.43.1"
   conditions: os=darwin
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm64@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-linux-arm64@npm:2.43.0"
+"@sentry/cli-linux-arm64@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-linux-arm64@npm:2.43.1"
   conditions: (os=linux | os=freebsd) & cpu=arm64
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-arm@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-linux-arm@npm:2.43.0"
+"@sentry/cli-linux-arm@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-linux-arm@npm:2.43.1"
   conditions: (os=linux | os=freebsd) & cpu=arm
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-i686@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-linux-i686@npm:2.43.0"
+"@sentry/cli-linux-i686@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-linux-i686@npm:2.43.1"
   conditions: (os=linux | os=freebsd) & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-linux-x64@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-linux-x64@npm:2.43.0"
+"@sentry/cli-linux-x64@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-linux-x64@npm:2.43.1"
   conditions: (os=linux | os=freebsd) & cpu=x64
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-arm64@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-win32-arm64@npm:2.43.0"
+"@sentry/cli-win32-arm64@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-win32-arm64@npm:2.43.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-i686@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-win32-i686@npm:2.43.0"
+"@sentry/cli-win32-i686@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-win32-i686@npm:2.43.1"
   conditions: os=win32 & (cpu=x86 | cpu=ia32)
   languageName: node
   linkType: hard
 
-"@sentry/cli-win32-x64@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli-win32-x64@npm:2.43.0"
+"@sentry/cli-win32-x64@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli-win32-x64@npm:2.43.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@sentry/cli@npm:2.43.0":
-  version: 2.43.0
-  resolution: "@sentry/cli@npm:2.43.0"
+"@sentry/cli@npm:2.43.1":
+  version: 2.43.1
+  resolution: "@sentry/cli@npm:2.43.1"
   dependencies:
-    "@sentry/cli-darwin": "npm:2.43.0"
-    "@sentry/cli-linux-arm": "npm:2.43.0"
-    "@sentry/cli-linux-arm64": "npm:2.43.0"
-    "@sentry/cli-linux-i686": "npm:2.43.0"
-    "@sentry/cli-linux-x64": "npm:2.43.0"
-    "@sentry/cli-win32-arm64": "npm:2.43.0"
-    "@sentry/cli-win32-i686": "npm:2.43.0"
-    "@sentry/cli-win32-x64": "npm:2.43.0"
+    "@sentry/cli-darwin": "npm:2.43.1"
+    "@sentry/cli-linux-arm": "npm:2.43.1"
+    "@sentry/cli-linux-arm64": "npm:2.43.1"
+    "@sentry/cli-linux-i686": "npm:2.43.1"
+    "@sentry/cli-linux-x64": "npm:2.43.1"
+    "@sentry/cli-win32-arm64": "npm:2.43.1"
+    "@sentry/cli-win32-i686": "npm:2.43.1"
+    "@sentry/cli-win32-x64": "npm:2.43.1"
     https-proxy-agent: "npm:^5.0.0"
     node-fetch: "npm:^2.6.7"
     progress: "npm:^2.0.3"
@@ -3164,7 +3164,7 @@ __metadata:
       optional: true
   bin:
     sentry-cli: bin/sentry-cli
-  checksum: 10c0/c224bc3d7b247a49fe76147eea38214b44b7d96d5022a95d9f251007f14367244664857bca18caed6848df1576eb2e5d74aeb5b2cbc1f6cf9fd36abddd0daa92
+  checksum: 10c0/067a403fb6b43c35bda05dde98fcfd58ced3e269799e2dba5fe9967d5b56c8ad75fce9384690274e3ef2d0f8726c5bf87c9b4b172a03d26b53de7f4e87a0b033
   languageName: node
   linkType: hard
 
@@ -3175,13 +3175,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/react-native@npm:6.11.0":
-  version: 6.11.0
-  resolution: "@sentry/react-native@npm:6.11.0"
+"@sentry/react-native@npm:6.13.0":
+  version: 6.13.0
+  resolution: "@sentry/react-native@npm:6.13.0"
   dependencies:
     "@sentry/babel-plugin-component-annotate": "npm:3.3.1"
     "@sentry/browser": "npm:8.54.0"
-    "@sentry/cli": "npm:2.43.0"
+    "@sentry/cli": "npm:2.43.1"
     "@sentry/core": "npm:8.54.0"
     "@sentry/react": "npm:8.54.0"
     "@sentry/types": "npm:8.54.0"
@@ -3195,7 +3195,7 @@ __metadata:
       optional: true
   bin:
     sentry-expo-upload-sourcemaps: scripts/expo-upload-sourcemaps.js
-  checksum: 10c0/10c526e66bdb51f3f89d9b805fe8b14a31305cd0f1bc0a3c2430843e6438adb7b45b1ea1e0eebd79e504b91b5995c9ecffdb22565f82c0c1e0a16043c71f8f04
+  checksum: 10c0/f748d354e29f51c553514701933a6b42a1d049b905e3e2cd9096e6a5e2a468e0c3e63581f08996f664de035ce7786a30de1751cc5fc22420f75428d7d8cff7c2
   languageName: node
   linkType: hard
 
@@ -9585,13 +9585,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "react-native-safe-area-context@npm:5.3.0"
+"react-native-safe-area-context@npm:^5.4.0":
+  version: 5.4.0
+  resolution: "react-native-safe-area-context@npm:5.4.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/3732f85444342f58f17709ecbbcfe754a0ebda1030765e8df0ce80413e95fcb34ee7d5e83b4627fbf383c13eeb50554c244aff3d908734eab67807aa6ca23bb6
+  checksum: 10c0/729fef1f768d57b905f51882374aa93b209d54576b8a0cf328e0a349c8dc9705ae8f9032e572fd7a7c9e94b588105f44760c0bb15ab9911b7977073d6754b54d
   languageName: node
   linkType: hard
 
@@ -10332,7 +10332,7 @@ __metadata:
     "@react-native-community/slider": "npm:4.5.6"
     "@react-native/eslint-config": "npm:^0.72.2"
     "@react-native/metro-config": "npm:^0.72.12"
-    "@sentry/react-native": "npm:6.11.0"
+    "@sentry/react-native": "npm:6.13.0"
     "@tsconfig/react-native": "npm:^3.0.0"
     "@types/react": "npm:^18.0.24"
     "@types/react-test-renderer": "npm:^18.0.0"
@@ -10367,7 +10367,7 @@ __metadata:
     react-native-quick-crypto: "npm:^0.7.13"
     react-native-reanimated: "npm:3.16.7"
     react-native-rename: "npm:^3.2.13"
-    react-native-safe-area-context: "npm:^5.3.0"
+    react-native-safe-area-context: "npm:^5.4.0"
     react-native-share: "npm:^9.4.1"
     react-native-static-safe-area-insets: "npm:^2.2.0"
     react-native-svg: "npm:^15.11.2"

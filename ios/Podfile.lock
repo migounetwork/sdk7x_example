@@ -356,7 +356,7 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React
     - React-Core
-  - react-native-safe-area-context (5.3.0):
+  - react-native-safe-area-context (5.4.0):
     - React-Core
   - react-native-slider (4.5.6):
     - RCT-Folly (= 2021.07.22.00)
@@ -537,12 +537,12 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.11.0):
+  - RNSentry (6.13.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.49.0)
+    - Sentry/HybridSDK (= 8.49.2)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -558,7 +558,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.49.0)
+  - Sentry/HybridSDK (8.49.2)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -823,7 +823,7 @@ SPEC CHECKSUMS:
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
   react-native-quick-crypto: 009bd518231c68ec42d91e4fbd73efe5bbcbde53
-  react-native-safe-area-context: f6fd1adb0c0dfb0a528f561c7c6f9297f3391af3
+  react-native-safe-area-context: 8870dc3e45c8d241336cd8ee3fa3fc76f3a040ac
   react-native-slider: 11c3710f5f75d3fd8858994307e7cf7353531556
   react-native-video: 6370f49e86bfd1874b77979e7b369cdf2359b4fd
   react-native-webview: 81c83dd8ad6f3bf0ecde102b3e84cd4844d759d9
@@ -856,14 +856,14 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 36e14d2cb0b1f17d958714f0ed598855c3b24744
+  RNSentry: 1b21ae7c4e617be118dcc401570589715956fa68
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: 3ac96156dba8e257d28d835f683e495fcc165923
   RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 5eda2559a20fa0c377b695ed9d7c178a47122891
+  Sentry: 47021097466aa130802420d485a34da445963d99
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
 
