@@ -537,7 +537,7 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.13.0):
+  - RNSentry (6.13.1):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -856,7 +856,7 @@ SPEC CHECKSUMS:
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: a15559aa2aa8b5e5d49616fd84259dfb3c415230
   RNReanimated: 322b47ac57c918e4b18fc30b7b1604a0c947e5f8
-  RNSentry: 1b21ae7c4e617be118dcc401570589715956fa68
+  RNSentry: c6086bcb3f133ef3c2f6c5400330fd48a68b507a
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: 3ac96156dba8e257d28d835f683e495fcc165923
