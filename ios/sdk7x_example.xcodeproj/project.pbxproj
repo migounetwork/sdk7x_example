@@ -519,7 +519,7 @@
 				DEVELOPMENT_TEAM = R49TKVP6WF;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = sdk7x_example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +552,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R49TKVP6WF;
 				INFOPLIST_FILE = sdk7x_example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
