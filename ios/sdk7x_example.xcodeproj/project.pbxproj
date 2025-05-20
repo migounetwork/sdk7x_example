@@ -211,6 +211,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				D37924682DDC242E00F1E196 /* Clean up fonts */,
 			);
 			buildRules = (
 			);
@@ -371,6 +372,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D37924682DDC242E00F1E196 /* Clean up fonts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Clean up fonts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET_RES=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\ncd \"$TARGET_RES\" || exit 1\n\necho \"🧹 Cleaning up unneeded TTF files from $TARGET_RES\"\n\nKEEPS=(\"FontAwesome5\" \"MyBrandIcons\")\n\nfor f in *.ttf; do\n  keep=0\n  for prefix in \"${KEEPS[@]}\"; do\n    case \"$f\" in\n      ${prefix}*) keep=1; break ;;\n    esac\n  done\n\n  if [[ $keep -eq 1 ]]; then\n    echo \"✅ Keeping $f\"\n  else\n    echo \"🗑 Removing $f\"\n    rm -f \"$f\"\n  fi\ndone\n";
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
