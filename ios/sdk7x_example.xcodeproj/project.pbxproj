@@ -389,7 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TARGET_RES=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\ncd \"$TARGET_RES\" || exit 1\n\necho \"🧹 Cleaning up unneeded TTF files from $TARGET_RES\"\n\nKEEPS=(\"FontAwesome5\" \"MyBrandIcons\")\n\nfor f in *.ttf; do\n  keep=0\n  for prefix in \"${KEEPS[@]}\"; do\n    case \"$f\" in\n      ${prefix}*) keep=1; break ;;\n    esac\n  done\n\n  if [[ $keep -eq 1 ]]; then\n    echo \"✅ Keeping $f\"\n  else\n    echo \"🗑 Removing $f\"\n    rm -f \"$f\"\n  fi\ndone\n";
+			shellScript = "TARGET_RES=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\ncd \"$TARGET_RES\" || exit 1\n\necho \"🧹 Cleaning up unneeded TTF files from $TARGET_RES\"\n\nKEEPS=(\"FontAwesome6\" \"MyBrandIcons\")\n\nfor f in *.ttf; do\n  keep=0\n  for prefix in \"${KEEPS[@]}\"; do\n    case \"$f\" in\n      ${prefix}*) keep=1; break ;;\n    esac\n  done\n\n  if [[ $keep -eq 1 ]]; then\n    echo \"✅ Keeping $f\"\n  else\n    echo \"🗑 Removing $f\"\n    rm -f \"$f\"\n  fi\ndone\n";
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

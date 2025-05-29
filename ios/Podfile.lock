@@ -358,6 +358,10 @@ PODS:
   - react-native-slider (4.5.6):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
+  - react-native-vector-icons (12.0.0):
+    - RCT-Folly (= 2021.07.22.00)
+    - React-Core
+  - react-native-vector-icons-fontawesome6 (12.0.0)
   - react-native-video (6.0.0-beta.8):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -542,9 +546,6 @@ PODS:
     - React-Core
   - RNSVG (15.7.1):
     - React-Core
-  - RNVectorIcons (10.2.0):
-    - RCT-Folly (= 2021.07.22.00)
-    - React-Core
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
@@ -588,6 +589,8 @@ DEPENDENCIES:
   - react-native-quick-base64 (from `../node_modules/react-native-quick-base64`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
+  - "react-native-vector-icons (from `../node_modules/@react-native-vector-icons/get-image`)"
+  - "react-native-vector-icons-fontawesome6 (from `../node_modules/@react-native-vector-icons/fontawesome6`)"
   - react-native-video (from `../node_modules/react-native-video`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -623,7 +626,6 @@ DEPENDENCIES:
   - RNShare (from `../node_modules/react-native-share`)
   - RNStaticSafeAreaInsets (from `../node_modules/react-native-static-safe-area-insets`)
   - RNSVG (from `../node_modules/react-native-svg`)
-  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -702,6 +704,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-slider:
     :path: "../node_modules/@react-native-community/slider"
+  react-native-vector-icons:
+    :path: "../node_modules/@react-native-vector-icons/get-image"
+  react-native-vector-icons-fontawesome6:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome6"
   react-native-video:
     :path: "../node_modules/react-native-video"
   react-native-webview:
@@ -772,8 +778,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-static-safe-area-insets"
   RNSVG:
     :path: "../node_modules/react-native-svg"
-  RNVectorIcons:
-    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -816,6 +820,8 @@ SPEC CHECKSUMS:
   react-native-quick-base64: a905ce84fb4a93f6e16491729c46ab9b57745d25
   react-native-safe-area-context: 141eca0fd4e4191288dfc8b96a7c7e1c2983447a
   react-native-slider: 11c3710f5f75d3fd8858994307e7cf7353531556
+  react-native-vector-icons: 6093b3ddbeabc2a5f57df9a8284ef99713fd1466
+  react-native-vector-icons-fontawesome6: daaab585163168e5b8f0fab977c1e877bde5086d
   react-native-video: f4d179981d7a32fea705b4aa1e766b74778087fc
   react-native-webview: 81c83dd8ad6f3bf0ecde102b3e84cd4844d759d9
   React-NativeModulesApple: 9baff5b154326151add253f2c5bcb93d20c33742
@@ -851,7 +857,6 @@ SPEC CHECKSUMS:
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: 4590aa95758149fa27c5c83e54a6a466349a1688
-  RNVectorIcons: 41801c4c94e7f2526823e05b586133c5868ff98d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Sentry: 47021097466aa130802420d485a34da445963d99
