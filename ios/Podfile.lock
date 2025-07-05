@@ -906,6 +906,10 @@ PODS:
     - React-debug
   - react-native-airplay-button (1.1.0):
     - React-Core
+  - react-native-compressor (1.12.0):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - react-native-config (1.5.5):
     - react-native-config/App (= 1.5.5)
   - react-native-config/App (1.5.5):
@@ -925,11 +929,17 @@ PODS:
     - React-Core
   - react-native-safe-area-context (4.14.1):
     - React-Core
+  - react-native-skia (2.1.1):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React
+    - React-callinvoker
+    - React-Core
   - react-native-slider (4.5.7):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons (12.0.0):
+  - react-native-vector-icons (12.0.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1131,7 +1141,7 @@ PODS:
     - React-Core
   - RNCAsyncStorage (2.2.0):
     - React-Core
-  - RNCClipboard (1.16.2):
+  - RNCClipboard (1.16.3):
     - React-Core
   - RNDeviceInfo (14.0.4):
     - React-Core
@@ -1141,6 +1151,10 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
+  - RNFlashList (2.0.0-rc.10):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - RNGestureHandler (2.16.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1170,13 +1184,13 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.13.1):
+  - RNSentry (6.16.1):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.49.2)
+    - Sentry/HybridSDK (= 8.53.1)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -1189,7 +1203,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.49.2)
+  - Sentry/HybridSDK (8.53.1)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1226,12 +1240,14 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - react-native-airplay-button (from `../node_modules/react-native-airplay-button`)
+  - react-native-compressor (from `../node_modules/react-native-compressor`)
   - react-native-config (from `../node_modules/react-native-config`)
   - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
   - react-native-quick-base64 (from `../node_modules/react-native-quick-base64`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
   - "react-native-vector-icons (from `../node_modules/@react-native-vector-icons/get-image`)"
   - "react-native-vector-icons-fontawesome6 (from `../node_modules/@react-native-vector-icons/fontawesome6`)"
@@ -1264,6 +1280,7 @@ DEPENDENCIES:
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNExitApp (from `../node_modules/react-native-exit-app`)
   - RNFastImage (from `../node_modules/react-native-fast-image`)
+  - "RNFlashList (from `../node_modules/@shopify/flash-list`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNKeychain (from `../node_modules/react-native-keychain`)
   - RNLocalize (from `../node_modules/react-native-localize`)
@@ -1348,6 +1365,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   react-native-airplay-button:
     :path: "../node_modules/react-native-airplay-button"
+  react-native-compressor:
+    :path: "../node_modules/react-native-compressor"
   react-native-config:
     :path: "../node_modules/react-native-config"
   react-native-mmkv:
@@ -1360,6 +1379,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-quick-base64"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-skia:
+    :path: "../node_modules/@shopify/react-native-skia"
   react-native-slider:
     :path: "../node_modules/@react-native-community/slider"
   react-native-vector-icons:
@@ -1424,6 +1445,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-exit-app"
   RNFastImage:
     :path: "../node_modules/react-native-fast-image"
+  RNFlashList:
+    :path: "../node_modules/@shopify/flash-list"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNKeychain:
@@ -1481,14 +1504,16 @@ SPEC CHECKSUMS:
   React-logger: 6c1170f7bc315878ef4bd3b918e09130cf632798
   React-Mapbuffer: 300b7684f71a676e9f2dbf6d67e14f39adfe84d3
   react-native-airplay-button: 90c7ba52402c8e92342003b8a1ff78dfb4357a9e
+  react-native-compressor: 28be93ee790b4e80ea5d5a479e2e36723b58c604
   react-native-config: 3367df9c1f25bb96197007ec531c7087ed4554c3
   react-native-mmkv: c405cc720dbdd8b1330b1bcf064196ca8cbb5a7c
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
   react-native-orientation-locker: 5819fd23ca89cbac0d736fb4314745f62716d517
   react-native-quick-base64: fe6a518db3c0ceb4097a8c9b28a26d0768e91695
   react-native-safe-area-context: 141eca0fd4e4191288dfc8b96a7c7e1c2983447a
+  react-native-skia: 083f40d74b29b0aaf272e60f86af42f2d582b167
   react-native-slider: a5b2f7ce9565e295363c54058e843e0ed086fbe1
-  react-native-vector-icons: 1982e31f8c24a97815b57b17683ad0064ff5e0dd
+  react-native-vector-icons: a22243a951e15c1bfbe632aac8964717f1c22f02
   react-native-vector-icons-fontawesome6: 264c2add533d1c708404424ac8cc2fc7245adf09
   react-native-video: b9219ef55823aee7fde235adb6369f26ecfbfd3e
   react-native-webview: dbd60250a371d7f7b6d9b2d9fb7abd45e127f7ce
@@ -1515,22 +1540,23 @@ SPEC CHECKSUMS:
   ReactNativeNavigation: 7049be27949f411c04f26039612a9b2f016b90d1
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 23e56519cc41d3bade3c8d4479f7760cb1c11996
-  RNCClipboard: 4411a880506f11fbcbdc03b5093eb8ffb246d900
+  RNCClipboard: dfeb43751adff21e588657b5b6c888c72f3aa68e
   RNDeviceInfo: feea80a690d2bde1fe51461cf548039258bd03f2
   RNExitApp: 00036cabe7bacbb413d276d5520bf74ba39afa6a
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
+  RNFlashList: ad4696de797a602d1de6d427446067225f22c343
   RNGestureHandler: bbb04bccfd972fc228f7307815ccd11f47324605
   RNKeychain: bfe3d12bf4620fe488771c414530bf16e88f3678
   RNLocalize: 06991b9c31e7a898a9fa6ddb204ce0f53a967248
   RNReactNativeHapticFeedback: c1461e1e377bd0f4e042f64cf61e534c261db81d
   RNReanimated: 39e51016ec96da586de4747db982dd032a47ba81
-  RNSentry: d0fbad664c328497110b2082f46538380e9b8601
+  RNSentry: 6a1099ac352f6ae8cc24f82181d5908116bca6b1
   RNShare: 32e97adc8d8c97d4a26bcdd3c45516882184f8b6
   RNStaticSafeAreaInsets: 055ddbf5e476321720457cdaeec0ff2ba40ec1b8
   RNSVG: 9325fbf920447630ab816ace9a4dfd9e4fe8c1b9
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 47021097466aa130802420d485a34da445963d99
+  Sentry: 1e4e974d45f09d153af4b30b42acfb1c79e957d3
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: d8b0f242670c8d28249d3aab276ca1a3b8db34f5
 
