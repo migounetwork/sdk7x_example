@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-react-native": "^4.3.6",
+    "@microsoft/applicationinsights-react-native": "^4.3.7",
     "@microsoft/applicationinsights-web": "^3.3.9",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-clipboard/clipboard": "^1.16.3",
@@ -20,8 +20,8 @@
     "@react-native-vector-icons/fontawesome6": "^12.2.0",
     "@react-native-vector-icons/get-image": "^12.2.0",
     "@sentry/react-native": "6.20.0",
-    "@shopify/flash-list": "^2.0.2",
-    "@shopify/react-native-skia": "^2.2.3",
+    "@shopify/flash-list": "^2.0.3",
+    "@shopify/react-native-skia": "^2.2.4",
     "buffer": "^6.0.3",
     "deprecated-react-native-prop-types": "^5.0.0",
     "immutable": "4.3.4",
@@ -30,7 +30,7 @@
     "react-native": "0.73.11",
     "react-native-airplay-button": "^1.1.0",
     "react-native-compressor": "^1.12.0",
-    "react-native-config": "1.5.5",
+    "react-native-config": "1.5.7",
     "react-native-device-info": "^14.0.4",
     "react-native-dropdownalert": "^5.1.0",
     "react-native-exit-app": "^2.0.0",

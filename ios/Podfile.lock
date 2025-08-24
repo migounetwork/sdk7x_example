@@ -28,9 +28,9 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - MMKV (2.2.2):
-    - MMKVCore (~> 2.2.2)
-  - MMKVCore (2.2.2)
+  - MMKV (2.2.3):
+    - MMKVCore (~> 2.2.3)
+  - MMKVCore (2.2.3)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -910,9 +910,9 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-config (1.5.5):
-    - react-native-config/App (= 1.5.5)
-  - react-native-config/App (1.5.5):
+  - react-native-config (1.5.7):
+    - react-native-config/App (= 1.5.7)
+  - react-native-config/App (1.5.7):
     - React-Core
   - react-native-mmkv (2.12.2):
     - glog
@@ -929,7 +929,7 @@ PODS:
     - React-Core
   - react-native-safe-area-context (4.14.1):
     - React-Core
-  - react-native-skia (2.2.3):
+  - react-native-skia (2.2.4):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React
@@ -1472,8 +1472,8 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  MMKV: b4802ebd5a7c68fc0c4a5ccb4926fbdfb62d68e0
-  MMKVCore: a255341a3746955f50da2ad9121b18cb2b346e61
+  MMKV: 941e8774da0e6fdf12c6b3fcc833ca687ae5a42d
+  MMKVCore: 6d5cc1bacce539f4c974985dfe646fb65a5d27d2
   RCT-Folly: cd21f1661364f975ae76b3308167ad66b09f53f5
   RCTRequired: 415e56f7c33799a6483e41e4dce607f3daf1e69b
   RCTSystemSetting: 4fde35f1f89fa6d644916b06d295837961a3b5b9
@@ -1498,13 +1498,13 @@ SPEC CHECKSUMS:
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
   react-native-compressor: 54a0efc2e7203d384402706e913af8fc15720ba2
-  react-native-config: 644074ab88db883fcfaa584f03520ec29589d7df
+  react-native-config: 963b5efabc864cf69412e54b5de49b6a23e4af03
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: cec9c4e86083cb5b6aba0e0711f563e2fbbff187
   react-native-orientation-locker: cc6f357b289a2e0dd2210fea0c52cb8e0727fdaa
   react-native-quick-base64: 6dc7559ce3eaa1ccadaa8dd95449bbb9be1ff1c5
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
-  react-native-skia: 34c872666893a4410fe9aa41a182d4eeb1152242
+  react-native-skia: 4adfa79cad2d25df0c14095f7ee8b3fea393bb26
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: bbd293ca5af81964474e1e7a3deb9df87c5ec53d
   react-native-vector-icons-fontawesome6: 976e1800d9a0813979f7c650cfe57a4f32e981f3
