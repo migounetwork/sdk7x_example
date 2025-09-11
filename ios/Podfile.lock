@@ -910,9 +910,9 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-config (1.5.7):
-    - react-native-config/App (= 1.5.7)
-  - react-native-config/App (1.5.7):
+  - react-native-config (1.5.9):
+    - react-native-config/App (= 1.5.9)
+  - react-native-config/App (1.5.9):
     - React-Core
   - react-native-mmkv (2.12.2):
     - glog
@@ -1174,7 +1174,7 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (6.20.0):
+  - RNSentry (7.0.1):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
@@ -1489,7 +1489,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
   react-native-compressor: 54a0efc2e7203d384402706e913af8fc15720ba2
-  react-native-config: 963b5efabc864cf69412e54b5de49b6a23e4af03
+  react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: cec9c4e86083cb5b6aba0e0711f563e2fbbff187
   react-native-orientation-locker: cc6f357b289a2e0dd2210fea0c52cb8e0727fdaa
@@ -1532,7 +1532,7 @@ SPEC CHECKSUMS:
   RNLocalize: 15463c4d79c7da45230064b4adcf5e9bb984667e
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: c8d5bf344025765321820f9a482179e23cdf2cdb
+  RNSentry: da0c0522f4f8a38011118a2856ac9b390ad87320
   RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: 70d9f7add64092eb33e975b75ee5fa04295318cc
