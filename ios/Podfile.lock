@@ -28,9 +28,9 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - MMKV (2.2.3):
-    - MMKVCore (~> 2.2.3)
-  - MMKVCore (2.2.3)
+  - MMKV (2.2.4):
+    - MMKVCore (~> 2.2.4)
+  - MMKVCore (2.2.4)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -1174,13 +1174,13 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.0.1):
+  - RNSentry (7.1.0):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.53.2)
+    - Sentry/HybridSDK (= 8.56.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -1193,7 +1193,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.53.2)
+  - Sentry/HybridSDK (8.56.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1463,8 +1463,8 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  MMKV: 941e8774da0e6fdf12c6b3fcc833ca687ae5a42d
-  MMKVCore: 6d5cc1bacce539f4c974985dfe646fb65a5d27d2
+  MMKV: 1a8e7dbce7f9cad02c52e1b1091d07bd843aefaf
+  MMKVCore: f2dd4c9befea04277a55e84e7812f930537993df
   RCT-Folly: cd21f1661364f975ae76b3308167ad66b09f53f5
   RCTRequired: 415e56f7c33799a6483e41e4dce607f3daf1e69b
   RCTSystemSetting: 4fde35f1f89fa6d644916b06d295837961a3b5b9
@@ -1532,13 +1532,13 @@ SPEC CHECKSUMS:
   RNLocalize: 15463c4d79c7da45230064b4adcf5e9bb984667e
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: da0c0522f4f8a38011118a2856ac9b390ad87320
+  RNSentry: e6625a6e9e2d71c07a0e562dbf1aa0e8958098cc
   RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: 70d9f7add64092eb33e975b75ee5fa04295318cc
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 59993bffde4a1ac297ba6d268dc4bbce068d7c1b
+  Sentry: 3d82977434c80381cae856c40b99c39e4be6bc11
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: d8b0f242670c8d28249d3aab276ca1a3b8db34f5
 
