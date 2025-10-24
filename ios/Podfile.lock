@@ -906,7 +906,7 @@ PODS:
     - React-debug
   - react-native-airplay-button (1.1.0):
     - React-Core
-  - react-native-compressor (1.12.0):
+  - react-native-compressor (1.13.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1137,7 +1137,7 @@ PODS:
     - React-Core
   - RNCClipboard (1.16.3):
     - React-Core
-  - RNDeviceInfo (14.0.4):
+  - RNDeviceInfo (14.1.1):
     - React-Core
   - RNExitApp (2.0.0):
     - React-Core
@@ -1151,7 +1151,7 @@ PODS:
     - React-Core
   - RNKeychain (8.2.0):
     - React-Core
-  - RNLocalize (3.4.1):
+  - RNLocalize (3.5.4):
     - React-Core
   - RNReactNativeHapticFeedback (2.3.3):
     - glog
@@ -1174,13 +1174,13 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.1.0):
+  - RNSentry (7.4.0):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.56.0)
+    - Sentry/HybridSDK (= 8.57.0)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -1193,7 +1193,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.56.0)
+  - Sentry/HybridSDK (8.57.0)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1488,7 +1488,7 @@ SPEC CHECKSUMS:
   React-logger: 6e4873d1f9c54cca30f6c91a6617f8c91b75ba4c
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
-  react-native-compressor: 54a0efc2e7203d384402706e913af8fc15720ba2
+  react-native-compressor: ffe9c6aa1afd4aa41a11e596f2ca62b51ce4b1cf
   react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: cec9c4e86083cb5b6aba0e0711f563e2fbbff187
@@ -1524,21 +1524,21 @@ SPEC CHECKSUMS:
   rn-fetch-blob: 25612b6d6f6e980c6f17ed98ba2f58f5696a51ca
   RNCAsyncStorage: b44e8a4e798c3e1f56bffccd0f591f674fb9198f
   RNCClipboard: f6679d470d0da2bce2a37b0af7b9e0bf369ecda5
-  RNDeviceInfo: d863506092aef7e7af3a1c350c913d867d795047
+  RNDeviceInfo: bcce8752b5043a623fe3c26789679b473f705d3c
   RNExitApp: 4432b9b7cc5ccec9f91c94e507849891282befd4
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
   RNGestureHandler: a6055699504687c2ac4851d88c72863280bb9d9d
   RNKeychain: bbe2f6d5cc008920324acb49ef86ccc03d3b38e4
-  RNLocalize: 15463c4d79c7da45230064b4adcf5e9bb984667e
+  RNLocalize: d7859f87f1083349c73aa089e360af33ef89efc2
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: e6625a6e9e2d71c07a0e562dbf1aa0e8958098cc
+  RNSentry: c1e2fa773c313be3221fdc7af620861def974675
   RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: 70d9f7add64092eb33e975b75ee5fa04295318cc
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: 3d82977434c80381cae856c40b99c39e4be6bc11
+  Sentry: e1b49e5f49367ff211b25c431a60e2bd83b792aa
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: d8b0f242670c8d28249d3aab276ca1a3b8db34f5
 
