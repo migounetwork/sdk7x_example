@@ -1137,7 +1137,7 @@ PODS:
     - React-Core
   - RNCClipboard (1.16.3):
     - React-Core
-  - RNDeviceInfo (14.1.1):
+  - RNDeviceInfo (15.0.1):
     - React-Core
   - RNExitApp (2.0.0):
     - React-Core
@@ -1174,13 +1174,13 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.5.0):
+  - RNSentry (7.6.0):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-hermes
-    - Sentry/HybridSDK (= 8.57.1)
+    - Sentry/HybridSDK (= 8.57.2)
   - RNShare (9.4.1):
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
@@ -1193,7 +1193,7 @@ PODS:
   - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry/HybridSDK (8.57.1)
+  - Sentry/HybridSDK (8.57.2)
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1524,7 +1524,7 @@ SPEC CHECKSUMS:
   rn-fetch-blob: 25612b6d6f6e980c6f17ed98ba2f58f5696a51ca
   RNCAsyncStorage: b44e8a4e798c3e1f56bffccd0f591f674fb9198f
   RNCClipboard: f6679d470d0da2bce2a37b0af7b9e0bf369ecda5
-  RNDeviceInfo: bcce8752b5043a623fe3c26789679b473f705d3c
+  RNDeviceInfo: 36d7f232bfe7c9b5c494cb7793230424ed32c388
   RNExitApp: 4432b9b7cc5ccec9f91c94e507849891282befd4
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
   RNGestureHandler: a6055699504687c2ac4851d88c72863280bb9d9d
@@ -1532,13 +1532,13 @@ SPEC CHECKSUMS:
   RNLocalize: d7859f87f1083349c73aa089e360af33ef89efc2
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: 76140be7e256da072750cfb5732dc878aed48a23
+  RNSentry: 8b9698dffbf19f4bbc5aa6b5974dfd14253ce157
   RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: a18cb1c4e15b5ca20d941fa2d063d3d3ded8a76b
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
-  Sentry: ea4ca7cd1a46c77dcc8123804ce36d8f5603a841
+  Sentry: 83a3814c3ca042874b39c5c5bdffb6570d4d760e
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: d8b0f242670c8d28249d3aab276ca1a3b8db34f5
 
