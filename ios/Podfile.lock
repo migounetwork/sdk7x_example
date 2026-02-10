@@ -919,7 +919,7 @@ PODS:
     - MMKV (>= 1.3.3)
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-netinfo (11.4.1):
+  - react-native-netinfo (11.5.2):
     - React-Core
   - react-native-orientation-locker (1.7.0):
     - React-Core
@@ -1143,7 +1143,7 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.16.2):
+  - RNGestureHandler (2.30.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1172,7 +1172,7 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.10.0):
+  - RNSentry (7.12.0):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
@@ -1489,7 +1489,7 @@ SPEC CHECKSUMS:
   react-native-compressor: ffe9c6aa1afd4aa41a11e596f2ca62b51ce4b1cf
   react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
-  react-native-netinfo: cec9c4e86083cb5b6aba0e0711f563e2fbbff187
+  react-native-netinfo: 387c95161b1971d0b2acd61f5ecf394c8fd3fb95
   react-native-orientation-locker: cc6f357b289a2e0dd2210fea0c52cb8e0727fdaa
   react-native-quick-base64: 587ccca2d32a4ea6828aefeb43a4d9cccb486a96
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
@@ -1525,12 +1525,12 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 36d7f232bfe7c9b5c494cb7793230424ed32c388
   RNExitApp: 4432b9b7cc5ccec9f91c94e507849891282befd4
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
-  RNGestureHandler: a6055699504687c2ac4851d88c72863280bb9d9d
+  RNGestureHandler: a1ad1d75c224e78dd31dd47c86ee591f1de71591
   RNKeychain: bbe2f6d5cc008920324acb49ef86ccc03d3b38e4
   RNLocalize: 0a9ffe84f0d25cf2fb0abacd4d7491a06e78ced2
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: ed614f794c55da0996e760241cb9508cbb9bd610
+  RNSentry: 8fc0a9a9fef55541a736a5a380f094281a81ac4b
   RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: a18cb1c4e15b5ca20d941fa2d063d3d3ded8a76b
