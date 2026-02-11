@@ -4614,9 +4614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/react-native@npm:7.12.0":
-  version: 7.12.0
-  resolution: "@sentry/react-native@npm:7.12.0"
+"@sentry/react-native@npm:7.12.1":
+  version: 7.12.1
+  resolution: "@sentry/react-native@npm:7.12.1"
   dependencies:
     "@sentry/babel-plugin-component-annotate": "npm:4.9.0"
     "@sentry/browser": "npm:10.38.0"
@@ -4633,7 +4633,7 @@ __metadata:
       optional: true
   bin:
     sentry-expo-upload-sourcemaps: scripts/expo-upload-sourcemaps.js
-  checksum: 10c0/44d22eee0993d888e42bca238a6570b64bed5291bfc30b36d9ef5a820a1f852ad87989a1610704509407143916e4537ba12988e0ae19db9a53698afcdb26dfda
+  checksum: 10c0/a8044e258c93e0c7e5667b843e76d9d0129c894d4b7340a6c4692d7ce442125ac99850e2653c10a645ae674564bfbd7567ef78d0d3ca10262bb1f8688ff06b4f
   languageName: node
   linkType: hard
 
@@ -11605,10 +11605,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-share@npm:^9.4.1":
-  version: 9.4.1
-  resolution: "react-native-share@npm:9.4.1"
-  checksum: 10c0/fcf74095a7166e094e97e357c0a797d083187eb49b38ec7adadb510b32e09ab8b122ada8f7edc7b1adc163a6557420da31df5f1b6f02be74ac6d94248740706c
+"react-native-share@npm:^12.2.5":
+  version: 12.2.5
+  resolution: "react-native-share@npm:12.2.5"
+  checksum: 10c0/d0e7f2fa405346b2eab37b3776c9d6c79f673930f0854ac45dfdf3aed0923b8a512fbe8653960399f5d9bf965aa98fe374c27c36e9fd1f93825e572ea3bf83df
   languageName: node
   linkType: hard
 
@@ -11634,9 +11634,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-svg@npm:15.14.0":
-  version: 15.14.0
-  resolution: "react-native-svg@npm:15.14.0"
+"react-native-svg@npm:15.15.3":
+  version: 15.15.3
+  resolution: "react-native-svg@npm:15.15.3"
   dependencies:
     css-select: "npm:^5.1.0"
     css-tree: "npm:^1.1.3"
@@ -11644,7 +11644,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/5855bee2a76313f580ac3f8c476d07bb63d1a8e5e0883154275be5a1f4224e35f2416b0ba3b03f5d4c637c3b2f9320df34ede918da27188adb6881b3b8ac96c8
+  checksum: 10c0/6aa5ea4745c7d174909468b5d5cb75059856d907f0b039bf3650deb81c9afcbd356f2382d7a7424d4cc69597aea5a508484ee5dba91b9126e3b520bc10faefe9
   languageName: node
   linkType: hard
 
@@ -12406,7 +12406,7 @@ __metadata:
     "@react-native/eslint-config": "npm:0.73.2"
     "@react-native/metro-config": "npm:0.73.5"
     "@react-native/typescript-config": "npm:0.73.1"
-    "@sentry/react-native": "npm:7.12.0"
+    "@sentry/react-native": "npm:7.12.1"
     "@types/react": "npm:^18.2.6"
     "@types/react-test-renderer": "npm:^18.0.0"
     babel-jest: "npm:^29.6.3"
@@ -12443,10 +12443,10 @@ __metadata:
     react-native-reanimated: "npm:3.15.5"
     react-native-rename: "npm:^3.2.13"
     react-native-safe-area-context: "npm:4.14.1"
-    react-native-share: "npm:^9.4.1"
+    react-native-share: "npm:^12.2.5"
     react-native-static-safe-area-insets: "npm:^2.2.0"
     react-native-sticky-table: "npm:^1.0.0"
-    react-native-svg: "npm:15.14.0"
+    react-native-svg: "npm:15.15.3"
     react-native-system-setting: "npm:^1.7.6"
     react-native-video: "npm:6.17.0"
     react-native-webview: "npm:13.16.0"

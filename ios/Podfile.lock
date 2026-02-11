@@ -1172,18 +1172,20 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.12.0):
+  - RNSentry (7.12.1):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - React-hermes
     - Sentry/HybridSDK (= 8.58.0)
-  - RNShare (9.4.1):
+  - RNShare (12.2.5):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
     - React-Core
-  - RNSVG (15.14.0):
+  - RNSVG (15.15.3):
     - React-Core
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
@@ -1530,10 +1532,10 @@ SPEC CHECKSUMS:
   RNLocalize: 0a9ffe84f0d25cf2fb0abacd4d7491a06e78ced2
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: 8fc0a9a9fef55541a736a5a380f094281a81ac4b
-  RNShare: 729e789e672f91e43bfa6cfbb6e668b927bff15d
+  RNSentry: 24f01095ff97ab16b38a9482b2787e5ff670cdd9
+  RNShare: 6c961a87c8edd71f9f7c38e0bdcd99f7696ce270
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
-  RNSVG: a18cb1c4e15b5ca20d941fa2d063d3d3ded8a76b
+  RNSVG: 7c30db7db27afaa6e4d38a598371b98a1b2bd181
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Sentry: d587a8fe91ca13503ecd69a1905f3e8a0fcf61be
