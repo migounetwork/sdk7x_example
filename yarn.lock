@@ -4167,7 +4167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/netinfo@npm:^11.5.2":
+"@react-native-community/netinfo@npm:11.5.2":
   version: 11.5.2
   resolution: "@react-native-community/netinfo@npm:11.5.2"
   peerDependencies:
@@ -4491,10 +4491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/babel-plugin-component-annotate@npm:4.9.0":
-  version: 4.9.0
-  resolution: "@sentry/babel-plugin-component-annotate@npm:4.9.0"
-  checksum: 10c0/9c096d788abe7fd14d87b2048fea61d6d3649a9cfe6ee22eea202a78d09d97cfdc12f3fed06413fdba559ef50558f591fb1bdd23b20475a1e4fd96f4c182314c
+"@sentry/babel-plugin-component-annotate@npm:4.9.1":
+  version: 4.9.1
+  resolution: "@sentry/babel-plugin-component-annotate@npm:4.9.1"
+  checksum: 10c0/94a8646eb4849752c5c19ede15790aaf3efafaac673d809e2a99039533d9228b62d76809254b6f347cf2e36767335c266f1dcbd57d8dbf23290db637ac92b434
   languageName: node
   linkType: hard
 
@@ -4614,11 +4614,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/react-native@npm:7.12.1":
-  version: 7.12.1
-  resolution: "@sentry/react-native@npm:7.12.1"
+"@sentry/react-native@npm:7.13.0":
+  version: 7.13.0
+  resolution: "@sentry/react-native@npm:7.13.0"
   dependencies:
-    "@sentry/babel-plugin-component-annotate": "npm:4.9.0"
+    "@sentry/babel-plugin-component-annotate": "npm:4.9.1"
     "@sentry/browser": "npm:10.38.0"
     "@sentry/cli": "npm:2.58.4"
     "@sentry/core": "npm:10.38.0"
@@ -4633,7 +4633,7 @@ __metadata:
       optional: true
   bin:
     sentry-expo-upload-sourcemaps: scripts/expo-upload-sourcemaps.js
-  checksum: 10c0/a8044e258c93e0c7e5667b843e76d9d0129c894d4b7340a6c4692d7ce442125ac99850e2653c10a645ae674564bfbd7567ef78d0d3ca10262bb1f8688ff06b4f
+  checksum: 10c0/ae1a27a86f5939d246f03ed089dc75cd653c240f6ceb3d141e4f83c224993737ac4971a0241cddda2eec3dbe1b74490a6f799b1e9a3e641fca1ee59906ba7ad3
   languageName: node
   linkType: hard
 
@@ -11350,13 +11350,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-compressor@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "react-native-compressor@npm:1.13.0"
+"react-native-compressor@npm:^1.16.0":
+  version: 1.16.0
+  resolution: "react-native-compressor@npm:1.16.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/dc9b5b411b0626137b06f2901e3aacb05fc5269509ebcfcacf2de884b501f343531431bde92c3156968e506ffed75561285eb68b80a0a17de56465a04a4bb314
+  checksum: 10c0/a9adac2948df4ef465c82aea8bebf32c4a91bdc0a12d1568dfac3ebf507e97bb47ba6975cc766231bcaeb803918f3d8d136b630e7d8f085823145703644871f6
   languageName: node
   linkType: hard
 
@@ -11655,13 +11655,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-video@npm:6.17.0":
-  version: 6.17.0
-  resolution: "react-native-video@npm:6.17.0"
+"react-native-video@npm:6.19.0":
+  version: 6.19.0
+  resolution: "react-native-video@npm:6.19.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/a366943327d0186656fca1fe514c1d1270c93e78ba42c45450de6d859b682b1a5afd7e55cb0cf57411987a52ec8765bf8ff113cbb5f1968fedcb0288f0934ec5
+  checksum: 10c0/ff06f37fb97707486e11ce46d01d50651759928784bdf5ff06191022a2a676440d1ecbc8fc41e5ce8fafa9cd45cf218d639f5fe99751c6b98c10f05b1c59fb35
   languageName: node
   linkType: hard
 
@@ -12398,7 +12398,7 @@ __metadata:
     "@microsoft/applicationinsights-web": "npm:^3.3.11"
     "@react-native-async-storage/async-storage": "npm:^2.2.0"
     "@react-native-clipboard/clipboard": "npm:^1.16.3"
-    "@react-native-community/netinfo": "npm:^11.5.2"
+    "@react-native-community/netinfo": "npm:11.5.2"
     "@react-native-community/slider": "npm:4.5.7"
     "@react-native-vector-icons/fontawesome6": "npm:^12.3.0"
     "@react-native-vector-icons/get-image": "npm:^12.3.0"
@@ -12406,7 +12406,7 @@ __metadata:
     "@react-native/eslint-config": "npm:0.73.2"
     "@react-native/metro-config": "npm:0.73.5"
     "@react-native/typescript-config": "npm:0.73.1"
-    "@sentry/react-native": "npm:7.12.1"
+    "@sentry/react-native": "npm:7.13.0"
     "@types/react": "npm:^18.2.6"
     "@types/react-test-renderer": "npm:^18.0.0"
     babel-jest: "npm:^29.6.3"
@@ -12423,7 +12423,7 @@ __metadata:
     react: "npm:18.2.0"
     react-native: "npm:0.73.11"
     react-native-airplay-button: "npm:^1.1.0"
-    react-native-compressor: "npm:^1.13.0"
+    react-native-compressor: "npm:^1.16.0"
     react-native-config: "npm:1.5.9"
     react-native-device-info: "npm:^15.0.1"
     react-native-dropdownalert: "npm:^5.1.0"
@@ -12448,7 +12448,7 @@ __metadata:
     react-native-sticky-table: "npm:^1.0.0"
     react-native-svg: "npm:15.15.3"
     react-native-system-setting: "npm:^1.7.6"
-    react-native-video: "npm:6.17.0"
+    react-native-video: "npm:6.19.0"
     react-native-webview: "npm:13.16.0"
     react-redux: "npm:8.1.3"
     react-test-renderer: "npm:18.2.0"

@@ -906,7 +906,7 @@ PODS:
     - React-debug
   - react-native-airplay-button (1.1.0):
     - React-Core
-  - react-native-compressor (1.13.0):
+  - react-native-compressor (1.16.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -936,12 +936,12 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
   - react-native-vector-icons-fontawesome6 (12.3.0)
-  - react-native-video (6.17.0):
+  - react-native-video (6.19.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-    - react-native-video/Video (= 6.17.0)
-  - react-native-video/Video (6.17.0):
+    - react-native-video/Video (= 6.19.0)
+  - react-native-video/Video (6.19.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1172,7 +1172,7 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNSentry (7.12.1):
+  - RNSentry (7.13.0):
     - glog
     - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
@@ -1488,7 +1488,7 @@ SPEC CHECKSUMS:
   React-logger: 6e4873d1f9c54cca30f6c91a6617f8c91b75ba4c
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
-  react-native-compressor: ffe9c6aa1afd4aa41a11e596f2ca62b51ce4b1cf
+  react-native-compressor: ef9c460a44fc0b7c7c30a00936929a2f3c66b532
   react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: 387c95161b1971d0b2acd61f5ecf394c8fd3fb95
@@ -1498,7 +1498,7 @@ SPEC CHECKSUMS:
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: 12475b6676b39c7ddc1532ee199dc2f4059e3a0e
   react-native-vector-icons-fontawesome6: 97dbb5a9327b344d9e8380cf8c278b9ad653772f
-  react-native-video: b01dd8938796a6b69de3e7e08e3d2042d63466ff
+  react-native-video: 3226eff4681715c67bef324da0ff030659fddc44
   react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
   React-NativeModulesApple: eea6abc6e6ea549faa10d867e44b3eba2d8cec3d
@@ -1532,7 +1532,7 @@ SPEC CHECKSUMS:
   RNLocalize: 0a9ffe84f0d25cf2fb0abacd4d7491a06e78ced2
   RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
-  RNSentry: 24f01095ff97ab16b38a9482b2787e5ff670cdd9
+  RNSentry: b03eef7791e91c1b08c8e862415fa46c221b1a2a
   RNShare: 6c961a87c8edd71f9f7c38e0bdcd99f7696ce270
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: 7c30db7db27afaa6e4d38a598371b98a1b2bd181
