@@ -1,4 +1,8 @@
 PODS:
+  - AsyncStorage (3.0.1):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - boost (1.83.0)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.73.11)
@@ -935,7 +939,7 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons-fontawesome6 (12.3.0)
+  - react-native-vector-icons-fontawesome6 (12.3.3)
   - react-native-video (6.19.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1131,11 +1135,9 @@ PODS:
     - React-RCTText
   - rn-fetch-blob (0.12.0):
     - React-Core
-  - RNCAsyncStorage (2.2.0):
-    - React-Core
   - RNCClipboard (1.16.3):
     - React-Core
-  - RNDeviceInfo (15.0.1):
+  - RNDeviceInfo (15.0.2):
     - React-Core
   - RNExitApp (2.0.0):
     - React-Core
@@ -1198,6 +1200,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - "AsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -1264,7 +1267,6 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeNavigation (from `../node_modules/react-native-navigation`)
   - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
-  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNExitApp (from `../node_modules/react-native-exit-app`)
@@ -1294,6 +1296,8 @@ SPEC REPOS:
     - SocketRocket
 
 EXTERNAL SOURCES:
+  AsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
@@ -1421,8 +1425,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-navigation"
   rn-fetch-blob:
     :path: "../node_modules/rn-fetch-blob"
-  RNCAsyncStorage:
-    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNCClipboard:
     :path: "../node_modules/@react-native-clipboard/clipboard"
   RNDeviceInfo:
@@ -1453,6 +1455,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  AsyncStorage: bf58a4b43452bf0bf91b6ffc0a0bc9ec73b96e15
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   FBLazyVector: b46891061bfe0a9b07f601813114c8653a72a45c
@@ -1497,7 +1500,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: 12475b6676b39c7ddc1532ee199dc2f4059e3a0e
-  react-native-vector-icons-fontawesome6: 97dbb5a9327b344d9e8380cf8c278b9ad653772f
+  react-native-vector-icons-fontawesome6: e9d93dabeb15994cba215ac17e46fffc1c2c5eaa
   react-native-video: 3226eff4681715c67bef324da0ff030659fddc44
   react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
@@ -1522,9 +1525,8 @@ SPEC CHECKSUMS:
   ReactCommon: 1102fc1d78fbfc56c57123e18d3acc14378f1403
   ReactNativeNavigation: abe4d911e42b0735b6761e471f6a3f6ef934245b
   rn-fetch-blob: 25612b6d6f6e980c6f17ed98ba2f58f5696a51ca
-  RNCAsyncStorage: b44e8a4e798c3e1f56bffccd0f591f674fb9198f
   RNCClipboard: f6679d470d0da2bce2a37b0af7b9e0bf369ecda5
-  RNDeviceInfo: 36d7f232bfe7c9b5c494cb7793230424ed32c388
+  RNDeviceInfo: 4c852998208b60dc192ae3529e5867817719ad1e
   RNExitApp: 4432b9b7cc5ccec9f91c94e507849891282befd4
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
   RNGestureHandler: a1ad1d75c224e78dd31dd47c86ee591f1de71591
