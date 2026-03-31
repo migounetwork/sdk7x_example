@@ -1,5 +1,5 @@
 PODS:
-  - AsyncStorage (3.0.1):
+  - AsyncStorage (3.0.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -32,9 +32,9 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - MMKV (2.3.0):
-    - MMKVCore (~> 2.3.0)
-  - MMKVCore (2.3.0)
+  - MMKV (2.4.0):
+    - MMKVCore (~> 2.4.0)
+  - MMKVCore (2.4.0)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -935,11 +935,11 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons (12.3.0):
+  - react-native-vector-icons (13.0.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons-fontawesome6 (12.3.3)
+  - react-native-vector-icons-fontawesome6 (13.0.0)
   - react-native-video (6.19.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1145,7 +1145,7 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.30.0):
+  - RNGestureHandler (2.30.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1153,7 +1153,7 @@ PODS:
     - React-Core
   - RNLocalize (3.6.1):
     - React-Core
-  - RNReactNativeHapticFeedback (2.3.3):
+  - RNReactNativeHapticFeedback (3.0.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1455,7 +1455,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AsyncStorage: bf58a4b43452bf0bf91b6ffc0a0bc9ec73b96e15
+  AsyncStorage: 49ac1ed5053b2e8488f1c9c4e9e73a48848d70f6
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   FBLazyVector: b46891061bfe0a9b07f601813114c8653a72a45c
@@ -1466,8 +1466,8 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  MMKV: c953dbaac0da392c24b005e763c03ce2638b4ed7
-  MMKVCore: d078dce7d6586a888b2c2ef5343b6242678e3ee8
+  MMKV: 86859fdfa2b0b21db1fd6e48788474a6416a2c77
+  MMKVCore: 3d16ce9f7d411e135020915fde98a056859a1efa
   RCT-Folly: cd21f1661364f975ae76b3308167ad66b09f53f5
   RCTRequired: 415e56f7c33799a6483e41e4dce607f3daf1e69b
   RCTSystemSetting: 4fde35f1f89fa6d644916b06d295837961a3b5b9
@@ -1499,8 +1499,8 @@ SPEC CHECKSUMS:
   react-native-quick-base64: 587ccca2d32a4ea6828aefeb43a4d9cccb486a96
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
-  react-native-vector-icons: 12475b6676b39c7ddc1532ee199dc2f4059e3a0e
-  react-native-vector-icons-fontawesome6: e9d93dabeb15994cba215ac17e46fffc1c2c5eaa
+  react-native-vector-icons: 438e078d83d81b2684e7d92da792962c3ce35ac1
+  react-native-vector-icons-fontawesome6: 9ff7ad5c479bebebf32da075c188e4410470d9b9
   react-native-video: 3226eff4681715c67bef324da0ff030659fddc44
   react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
@@ -1529,10 +1529,10 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 4c852998208b60dc192ae3529e5867817719ad1e
   RNExitApp: 4432b9b7cc5ccec9f91c94e507849891282befd4
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
-  RNGestureHandler: a1ad1d75c224e78dd31dd47c86ee591f1de71591
+  RNGestureHandler: 6936750ca6c91f70cca6589f4824f6c965358be7
   RNKeychain: bbe2f6d5cc008920324acb49ef86ccc03d3b38e4
   RNLocalize: 0a9ffe84f0d25cf2fb0abacd4d7491a06e78ced2
-  RNReactNativeHapticFeedback: dd6824925f46360a7ac21068b88944b5a0b0188b
+  RNReactNativeHapticFeedback: 5a95a770d0f48d1ced2858beac91cc2a1c51f112
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
   RNSentry: b03eef7791e91c1b08c8e862415fa46c221b1a2a
   RNShare: 6c961a87c8edd71f9f7c38e0bdcd99f7696ce270

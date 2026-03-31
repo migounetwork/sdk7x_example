@@ -3962,15 +3962,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@react-native-async-storage/async-storage@npm:3.0.1"
+"@react-native-async-storage/async-storage@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@react-native-async-storage/async-storage@npm:3.0.2"
   dependencies:
     idb: "npm:8.0.3"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/38d95c6f743e05e17528749d0a5293829ae77f0fed6e49936327d853946fac7b020029adb9dbb7fcfee089c6b922437f843099558a80356da7ec58b3b97b9c34
+  checksum: 10c0/afcc9805d15c644a0390e806a2d663bd9ce44f73f15d279b707581677d3a51b985e93a7bb64e301c6f970c3dae531ac7a40bb94e5773bc3515ae54afe59d9d77
   languageName: node
   linkType: hard
 
@@ -4185,45 +4185,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-vector-icons/common@npm:^12.4.2":
-  version: 12.4.2
-  resolution: "@react-native-vector-icons/common@npm:12.4.2"
+"@react-native-vector-icons/common@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@react-native-vector-icons/common@npm:13.0.0"
   dependencies:
     find-up: "npm:^7.0.0"
     picocolors: "npm:^1.1.1"
     plist: "npm:^3.1.0"
   peerDependencies:
-    "@react-native-vector-icons/get-image": ^12.3.0
+    "@react-native-vector-icons/get-image": ^13.0.0
+    "@react-native/assets-registry": "*"
     react: "*"
     react-native: "*"
   peerDependenciesMeta:
     "@react-native-vector-icons/get-image":
       optional: true
+    "@react-native/assets-registry":
+      optional: true
   bin:
     rnvi-update-plist: lib/commonjs/scripts/updatePlist.js
-  checksum: 10c0/a455b0e39816736d5cdeca67958a62366b2d3d656c80de521530683e5c3fb524d5dedf3609b2ec2503e19f810e057ca29838146c4be9ec3316153b36e794a832
+  checksum: 10c0/28a364ff29df272eed29a0b4e60948e5c1eedde0d738c4f9cd53e04aefdb760ede864aadb201ec99a1db2072a21c778e07b2713823bcb32563f905f5eeb6e49d
   languageName: node
   linkType: hard
 
-"@react-native-vector-icons/fontawesome6@npm:^12.3.3":
-  version: 12.3.3
-  resolution: "@react-native-vector-icons/fontawesome6@npm:12.3.3"
+"@react-native-vector-icons/fontawesome6@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@react-native-vector-icons/fontawesome6@npm:13.0.0"
   dependencies:
-    "@react-native-vector-icons/common": "npm:^12.4.2"
+    "@react-native-vector-icons/common": "npm:^13.0.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/daca8934249c851cb271e351ab9224a7cff62e0fe6aa80f2cce0bc619c4bc5cfe5c358a0b4a211f81db6d6b2c92733054c695201f9fafc78c5a20070a1b0d1f8
+  checksum: 10c0/0036d5121fcbf321bd7ab31b080eb8c4cc2baaccd54795a37a7c5cad29224c55de2b09709765b9a24d8fa74b4c71c636061e3b3bef98afc128f6395c42751fc7
   languageName: node
   linkType: hard
 
-"@react-native-vector-icons/get-image@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "@react-native-vector-icons/get-image@npm:12.3.0"
+"@react-native-vector-icons/get-image@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@react-native-vector-icons/get-image@npm:13.0.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/b03d5f4628c84af973b1970f2db918cb5398203b57b636e5886be69806a98080c7907e86629cc9a07e9db8ae58c2be58b224417cb5b6db26a453764f16ea015c
+  checksum: 10c0/c13dd85b1e43b744456aac7be94edd62743fbd3815516b70f03fd0dde274c1ca862f7ea1c9826a2ab0fbd1b73da2ce2c2ad5fc0b09f018818d2d78c7d8880447
   languageName: node
   linkType: hard
 
@@ -11378,10 +11381,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-dropdownalert@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "react-native-dropdownalert@npm:5.1.0"
-  checksum: 10c0/0d6a721b53f8705dea13ce2017001066279751211f9f796f9c0024d931450b3a5f02a384393b9b881bf9c54d165b4a96ab4f13922353e138af763898901b5029
+"react-native-dropdownalert@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "react-native-dropdownalert@npm:5.2.0"
+  checksum: 10c0/8d2d2cc90400e2e797d997f75e2de83dc9cfc048c29f4897ccd0fa99630222025322e0d9287894299f2cfe1b8c630ef2a9559238fd078b7ebcd9c168c599715b
   languageName: node
   linkType: hard
 
@@ -11402,9 +11405,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.30.0":
-  version: 2.30.0
-  resolution: "react-native-gesture-handler@npm:2.30.0"
+"react-native-gesture-handler@npm:2.30.1":
+  version: 2.30.1
+  resolution: "react-native-gesture-handler@npm:2.30.1"
   dependencies:
     "@egjs/hammerjs": "npm:^2.0.17"
     hoist-non-react-statics: "npm:^3.3.0"
@@ -11412,16 +11415,20 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/26b94b0f97433fc6fb5b1c196ef29fce4f5a66c77fabb1bc33db91099357fbd44a5220783fcbb91d42700bcd578f2fd114314029d9e0d4674878767d9b7f5df6
+  checksum: 10c0/6fdace725cfc08a8f2ab4b307d8d7f11438ebe38038443f7057bb1fd10554fcec8ce2816e8da131ae9b850c9be5e3bbef752b90240f5c91595ab20fd03ad6876
   languageName: node
   linkType: hard
 
-"react-native-haptic-feedback@npm:^2.3.3":
-  version: 2.3.3
-  resolution: "react-native-haptic-feedback@npm:2.3.3"
+"react-native-haptic-feedback@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "react-native-haptic-feedback@npm:3.0.0"
   peerDependencies:
-    react-native: ">=0.60.0"
-  checksum: 10c0/de65b6a0088cf8c14b6248eddb1275233c400a52f818eda640d1475ecaa38dc059b3c37fce7f0a0bd0c33c4e1fb7537bc31fed60e94d026638993dd5d916b35e
+    react: ">=18.0.0"
+    react-native: ">=0.71.0"
+  peerDependenciesMeta:
+    react:
+      optional: true
+  checksum: 10c0/209566a098470b33e209aafc333dc897f911dc71243a41ab5486cb067e995dde78daa276b33b6c13b004bf1168352452bf39c4d9c536b6d3c9c210b6d78028cf
   languageName: node
   linkType: hard
 
@@ -12388,12 +12395,12 @@ __metadata:
     "@babel/runtime": "npm:^7.20.0"
     "@microsoft/applicationinsights-react-native": "npm:^4.3.8"
     "@microsoft/applicationinsights-web": "npm:^3.3.11"
-    "@react-native-async-storage/async-storage": "npm:^3.0.1"
+    "@react-native-async-storage/async-storage": "npm:^3.0.2"
     "@react-native-clipboard/clipboard": "npm:^1.16.3"
     "@react-native-community/netinfo": "npm:11.5.2"
     "@react-native-community/slider": "npm:4.5.7"
-    "@react-native-vector-icons/fontawesome6": "npm:^12.3.3"
-    "@react-native-vector-icons/get-image": "npm:^12.3.0"
+    "@react-native-vector-icons/fontawesome6": "npm:^13.0.0"
+    "@react-native-vector-icons/get-image": "npm:^13.0.0"
     "@react-native/babel-preset": "npm:0.73.21"
     "@react-native/eslint-config": "npm:0.73.2"
     "@react-native/metro-config": "npm:0.73.5"
@@ -12418,11 +12425,11 @@ __metadata:
     react-native-compressor: "npm:^1.16.0"
     react-native-config: "npm:1.5.9"
     react-native-device-info: "npm:^15.0.2"
-    react-native-dropdownalert: "npm:^5.1.0"
+    react-native-dropdownalert: "npm:^5.2.0"
     react-native-exit-app: "npm:^2.0.0"
     react-native-fast-image: "npm:8.6.3"
-    react-native-gesture-handler: "npm:2.30.0"
-    react-native-haptic-feedback: "npm:^2.3.3"
+    react-native-gesture-handler: "npm:2.30.1"
+    react-native-haptic-feedback: "npm:^3.0.0"
     react-native-keychain: "npm:8.2.0"
     react-native-localize: "npm:^3.6.1"
     react-native-mmkv: "npm:^2.12.2"
