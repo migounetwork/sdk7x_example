@@ -303,9 +303,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,9 +324,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example/Pods-sdk7x_example-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example/Pods-sdk7x_example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,9 +345,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example-sdk7x_exampleTests/Pods-sdk7x_example-sdk7x_exampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,9 +410,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example/Pods-sdk7x_example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sdk7x_example/Pods-sdk7x_example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -548,7 +564,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_IOS)";
 				PRODUCT_NAME = sdk7x_example;
@@ -581,7 +596,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_ID_IOS)";
 				PRODUCT_NAME = sdk7x_example;
