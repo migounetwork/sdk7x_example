@@ -4152,9 +4152,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-vector-icons/fontawesome6@npm:^13.1.0":
-  version: 13.1.0
-  resolution: "@react-native-vector-icons/fontawesome6@npm:13.1.0"
+"@react-native-vector-icons/fontawesome6@npm:^13.1.1":
+  version: 13.1.1
+  resolution: "@react-native-vector-icons/fontawesome6@npm:13.1.1"
   dependencies:
     "@react-native-vector-icons/common": "npm:^13.0.0"
   peerDependencies:
@@ -4164,7 +4164,7 @@ __metadata:
   peerDependenciesMeta:
     "@expo/config-plugins":
       optional: true
-  checksum: 10c0/fd0c65f7e36ba0cca62b2b414077e60de3a18909e075e53ffbb8dae035fffa672f207342e9a97d1c2278b599cfd00ed7341340ed988ec6a869ece0875be6ee17
+  checksum: 10c0/6f7bcf05fabbebd232a012a0d1fdace9469f6eafae9578f5d82db5ba624d6a2258cdaa95b322839144d98b9bbbb734e399659107056f5fb011998567fb61b839
   languageName: node
   linkType: hard
 
@@ -11293,13 +11293,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-compressor@npm:^1.16.0":
-  version: 1.16.0
-  resolution: "react-native-compressor@npm:1.16.0"
+"react-native-compressor@npm:^1.18.2":
+  version: 1.18.2
+  resolution: "react-native-compressor@npm:1.18.2"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/a9adac2948df4ef465c82aea8bebf32c4a91bdc0a12d1568dfac3ebf507e97bb47ba6975cc766231bcaeb803918f3d8d136b630e7d8f085823145703644871f6
+  checksum: 10c0/67899ae030a338f3fb99172d320c9e519135c30e0df27c364be75b0680bb700aa1c88d358800edf7f444f3b8b3466f39b639f236809ba6a483f731ba951e30ea
   languageName: node
   linkType: hard
 
@@ -11387,9 +11387,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-localize@npm:^3.6.1":
-  version: 3.6.1
-  resolution: "react-native-localize@npm:3.6.1"
+"react-native-localize@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "react-native-localize@npm:3.7.0"
   peerDependencies:
     "@expo/config-plugins": "*"
     react: "*"
@@ -11400,7 +11400,7 @@ __metadata:
       optional: true
     react-native-macos:
       optional: true
-  checksum: 10c0/d36f00c07d390aa86e72064266d4b21924920a900647bb99175aeccc7f67aad8e4fcebc7c4a932f3faf97221a0e3df78bd08f204bd4ba6fc5afc8386c8d4be71
+  checksum: 10c0/a65814e95473ed25924d68fc05c8d924d3891a9c939e5f799f727f366e1feee1421b0b7b74f1032edc3c215fd5113d5bef7243757bd7a2de9f4c02a57e522a59
   languageName: node
   linkType: hard
 
@@ -12347,7 +12347,7 @@ __metadata:
     "@react-native-clipboard/clipboard": "npm:^1.16.3"
     "@react-native-community/netinfo": "npm:11.5.2"
     "@react-native-community/slider": "npm:4.5.7"
-    "@react-native-vector-icons/fontawesome6": "npm:^13.1.0"
+    "@react-native-vector-icons/fontawesome6": "npm:^13.1.1"
     "@react-native-vector-icons/get-image": "npm:^13.0.0"
     "@react-native/babel-preset": "npm:0.73.21"
     "@react-native/eslint-config": "npm:0.73.2"
@@ -12370,7 +12370,7 @@ __metadata:
     react: "npm:18.2.0"
     react-native: "npm:0.73.11"
     react-native-airplay-button: "npm:^1.1.0"
-    react-native-compressor: "npm:^1.16.0"
+    react-native-compressor: "npm:^1.18.2"
     react-native-config: "npm:1.5.9"
     react-native-device-info: "npm:^15.0.2"
     react-native-dropdownalert: "npm:^5.2.0"
@@ -12379,7 +12379,7 @@ __metadata:
     react-native-gesture-handler: "npm:2.30.1"
     react-native-haptic-feedback: "npm:^3.0.0"
     react-native-keychain: "npm:8.2.0"
-    react-native-localize: "npm:^3.6.1"
+    react-native-localize: "npm:^3.7.0"
     react-native-mmkv: "npm:^2.12.2"
     react-native-modal: "npm:^13.0.1"
     react-native-navigation: "npm:7.51.2"

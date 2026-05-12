@@ -910,7 +910,7 @@ PODS:
     - React-debug
   - react-native-airplay-button (1.1.0):
     - React-Core
-  - react-native-compressor (1.16.0):
+  - react-native-compressor (1.18.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -939,7 +939,7 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons-fontawesome6 (13.1.0)
+  - react-native-vector-icons-fontawesome6 (13.1.1)
   - react-native-video (6.19.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1151,7 +1151,7 @@ PODS:
     - React-Core
   - RNKeychain (8.2.0):
     - React-Core
-  - RNLocalize (3.6.1):
+  - RNLocalize (3.7.0):
     - React-Core
   - RNReactNativeHapticFeedback (3.0.0):
     - glog
@@ -1491,7 +1491,7 @@ SPEC CHECKSUMS:
   React-logger: 6e4873d1f9c54cca30f6c91a6617f8c91b75ba4c
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
-  react-native-compressor: ef9c460a44fc0b7c7c30a00936929a2f3c66b532
+  react-native-compressor: 56c8ed3e39f31746649864d4818b998b54cc905a
   react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: 387c95161b1971d0b2acd61f5ecf394c8fd3fb95
@@ -1500,7 +1500,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: 438e078d83d81b2684e7d92da792962c3ce35ac1
-  react-native-vector-icons-fontawesome6: 3fbe37e7f0487e631ec19f994bdc43beaae20b42
+  react-native-vector-icons-fontawesome6: cb138ec4b569dc7b24430ddde9297f34dbbcde5c
   react-native-video: 3fb9a06d7d57d4e696a4576ef7286143b59a64d1
   react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
@@ -1531,7 +1531,7 @@ SPEC CHECKSUMS:
   RNFastImage: 462a183c4b0b6b26fdfd639e1ed6ba37536c3b87
   RNGestureHandler: 6936750ca6c91f70cca6589f4824f6c965358be7
   RNKeychain: bbe2f6d5cc008920324acb49ef86ccc03d3b38e4
-  RNLocalize: 0a9ffe84f0d25cf2fb0abacd4d7491a06e78ced2
+  RNLocalize: 5b24342fb7288242c2215756412d8dcb8dadf31e
   RNReactNativeHapticFeedback: 5a95a770d0f48d1ced2858beac91cc2a1c51f112
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
   RNSentry: b03eef7791e91c1b08c8e862415fa46c221b1a2a
