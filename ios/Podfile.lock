@@ -1,5 +1,5 @@
 PODS:
-  - AsyncStorage (3.0.2):
+  - AsyncStorage (3.1.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -939,7 +939,7 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-vector-icons-fontawesome6 (13.1.1)
+  - react-native-vector-icons-fontawesome6 (13.1.2)
   - react-native-video (6.19.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1455,7 +1455,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AsyncStorage: 49ac1ed5053b2e8488f1c9c4e9e73a48848d70f6
+  AsyncStorage: e0f2abfea94dd0857629c68e5030d6ca6b91a4ab
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   FBLazyVector: b46891061bfe0a9b07f601813114c8653a72a45c
@@ -1500,7 +1500,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: 758e894ca5a9bd1868d2a9cfbca7326a2b6bf9dc
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: 438e078d83d81b2684e7d92da792962c3ce35ac1
-  react-native-vector-icons-fontawesome6: cb138ec4b569dc7b24430ddde9297f34dbbcde5c
+  react-native-vector-icons-fontawesome6: e0ee5d2a017ecdccf187b8ebb21e8a35a4004b1c
   react-native-video: 3fb9a06d7d57d4e696a4576ef7286143b59a64d1
   react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
