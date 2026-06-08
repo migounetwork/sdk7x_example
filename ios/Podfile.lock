@@ -910,7 +910,7 @@ PODS:
     - React-debug
   - react-native-airplay-button (1.1.0):
     - React-Core
-  - react-native-compressor (1.18.2):
+  - react-native-compressor (1.19.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1491,7 +1491,7 @@ SPEC CHECKSUMS:
   React-logger: 6e4873d1f9c54cca30f6c91a6617f8c91b75ba4c
   React-Mapbuffer: f950f61557aecfb4beb33c26a7b709f4491cfbd7
   react-native-airplay-button: 67346bac38f575ce06978b5746052b0aa2741439
-  react-native-compressor: 56c8ed3e39f31746649864d4818b998b54cc905a
+  react-native-compressor: bd8b4086a08d95bc76e90385090e6263e32a4cb3
   react-native-config: d08b60865268872495a43e211059b4606131fe01
   react-native-mmkv: a742cb1f2cac58aa1baee8bb6484c716bd38c8b6
   react-native-netinfo: 387c95161b1971d0b2acd61f5ecf394c8fd3fb95

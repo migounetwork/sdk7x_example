@@ -11288,13 +11288,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-compressor@npm:^1.18.2":
-  version: 1.18.2
-  resolution: "react-native-compressor@npm:1.18.2"
+"react-native-compressor@npm:^1.19.0":
+  version: 1.19.0
+  resolution: "react-native-compressor@npm:1.19.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/67899ae030a338f3fb99172d320c9e519135c30e0df27c364be75b0680bb700aa1c88d358800edf7f444f3b8b3466f39b639f236809ba6a483f731ba951e30ea
+  checksum: 10c0/1230743f58544abad858f5f6deef933f8734b9ef9320034b073f353ce7a52f5ea285b226af492cca1ba3bc02a69cc16af0f28f18c9fe2f1d2f8e6fed4fd105ab
   languageName: node
   linkType: hard
 
@@ -12365,7 +12365,7 @@ __metadata:
     react: "npm:18.2.0"
     react-native: "npm:0.73.11"
     react-native-airplay-button: "npm:^1.1.0"
-    react-native-compressor: "npm:^1.18.2"
+    react-native-compressor: "npm:^1.19.0"
     react-native-config: "npm:1.5.9"
     react-native-device-info: "npm:^15.0.2"
     react-native-dropdownalert: "npm:^5.2.0"
