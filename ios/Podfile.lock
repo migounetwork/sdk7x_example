@@ -940,16 +940,16 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
   - react-native-vector-icons-fontawesome6 (13.1.2)
-  - react-native-video (6.19.1):
+  - react-native-video (6.19.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-    - react-native-video/Video (= 6.19.1)
-  - react-native-video/Video (6.19.1):
+    - react-native-video/Video (= 6.19.2)
+  - react-native-video/Video (6.19.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-webview (13.16.0):
+  - react-native-webview (14.0.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1501,8 +1501,8 @@ SPEC CHECKSUMS:
   react-native-slider: 886a70f7294edfb8d8a9a61d265e53a6e3f95d00
   react-native-vector-icons: 438e078d83d81b2684e7d92da792962c3ce35ac1
   react-native-vector-icons-fontawesome6: e0ee5d2a017ecdccf187b8ebb21e8a35a4004b1c
-  react-native-video: 3fb9a06d7d57d4e696a4576ef7286143b59a64d1
-  react-native-webview: 8a7c0755febcb264291a518ae0abcff149d56344
+  react-native-video: a6d3ea667f1823473101a541f52f60687ba8c17b
+  react-native-webview: 0a2571347e0437130efa8293f7c50d2f8e2b83de
   React-nativeconfig: 6178939b2ac9010dd2f9f994aab3ab11fa68fbf3
   React-NativeModulesApple: eea6abc6e6ea549faa10d867e44b3eba2d8cec3d
   React-perflogger: 3887a05940ccd34a83457fd153fdeda509b31737
