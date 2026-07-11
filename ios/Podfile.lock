@@ -1181,7 +1181,7 @@ PODS:
     - React-Core
     - React-hermes
     - Sentry/HybridSDK (= 8.58.0)
-  - RNShare (12.2.5):
+  - RNShare (12.3.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1535,7 +1535,7 @@ SPEC CHECKSUMS:
   RNReactNativeHapticFeedback: 5a95a770d0f48d1ced2858beac91cc2a1c51f112
   RNReanimated: 39e633243cbe96c0296740780ab75335b5855c3f
   RNSentry: b03eef7791e91c1b08c8e862415fa46c221b1a2a
-  RNShare: 6c961a87c8edd71f9f7c38e0bdcd99f7696ce270
+  RNShare: 6d412a7338b855d2b75deb546552e83a37555012
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
   RNSVG: 7c30db7db27afaa6e4d38a598371b98a1b2bd181
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d

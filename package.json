@@ -11,8 +11,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-react-native": "^4.4.0",
-    "@microsoft/applicationinsights-web": "^3.4.2",
+    "@microsoft/applicationinsights-react-native": "^4.4.1",
+    "@microsoft/applicationinsights-web": "^3.4.3",
     "@react-native-async-storage/async-storage": "^3.1.1",
     "@react-native-clipboard/clipboard": "^1.16.3",
     "@react-native-community/netinfo": "11.5.2",
@@ -27,7 +27,7 @@
     "react": "18.2.0",
     "react-native": "0.73.11",
     "react-native-airplay-button": "^1.1.0",
-    "react-native-compressor": "^1.19.0",
+    "react-native-compressor": "1.19.0",
     "react-native-config": "1.5.9",
     "react-native-device-info": "^15.0.2",
     "react-native-dropdownalert": "^5.2.0",
@@ -46,7 +46,7 @@
     "react-native-quick-base64": "^2.2.2",
     "react-native-reanimated": "3.15.5",
     "react-native-safe-area-context": "4.14.1",
-    "react-native-share": "^12.2.5",
+    "react-native-share": "^12.3.1",
     "react-native-static-safe-area-insets": "^2.2.0",
     "react-native-sticky-table": "^1.0.0",
     "react-native-svg": "15.15.3",
